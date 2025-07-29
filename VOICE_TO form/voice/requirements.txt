@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-dotenv
+openai=1.82.0
+langchain= 0.3.25
+langchain-openai=0.3.18
+pydantic>=2.0
+nest_asyncio
+sarvamai
+python-multipart
+requests
+ffmpeg
