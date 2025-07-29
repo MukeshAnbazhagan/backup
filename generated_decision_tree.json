@@ -1,0 +1,2506 @@
+[
+  {
+    "q_id": 1,
+    "q_tag": "DEMOGRAPHICS",
+    "question": "What is your gender?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Female",
+        "next_q_id": 2
+      },
+      {
+        "option_id": 2,
+        "opt_value": "Male",
+        "next_q_id": 3
+      }
+    ]
+  },
+  {
+    "q_id": 2,
+    "q_tag": "DEMOGRAPHICS",
+    "question": "What is your age group (Female)?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "0-2",
+        "next_q_id": 4
+      },
+      {
+        "option_id": 2,
+        "opt_value": "3-12",
+        "next_q_id": 16
+      },
+      {
+        "option_id": 3,
+        "opt_value": "13-18",
+        "next_q_id": 40
+      },
+      {
+        "option_id": 4,
+        "opt_value": "19-40",
+        "next_q_id": 55
+      },
+      {
+        "option_id": 5,
+        "opt_value": "41-65",
+        "next_q_id": 70
+      },
+      {
+        "option_id": 6,
+        "opt_value": "66+",
+        "next_q_id": 85
+      }
+    ]
+  },
+  {
+    "q_id": 3,
+    "q_tag": "DEMOGRAPHICS",
+    "question": "What is your age group (Male)?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "0-2",
+        "next_q_id": 4
+      },
+      {
+        "option_id": 2,
+        "opt_value": "3-12",
+        "next_q_id": 16
+      },
+      {
+        "option_id": 3,
+        "opt_value": "13-18",
+        "next_q_id": 37
+      },
+      {
+        "option_id": 4,
+        "opt_value": "19-40",
+        "next_q_id": 52
+      },
+      {
+        "option_id": 5,
+        "opt_value": "41-65",
+        "next_q_id": 67
+      },
+      {
+        "option_id": 6,
+        "opt_value": "66+",
+        "next_q_id": 82
+      }
+    ]
+  },
+  {
+    "q_id": 4,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the infant crying excessively or showing signs of discomfort?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 5
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 5
+      }
+    ],
+    "age_group": "0-2",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 5,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the infant have difficulty moving their legs or back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 6
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 6
+      }
+    ],
+    "age_group": "0-2",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 6,
+    "q_tag": "SYMPTOMS",
+    "question": "Is there any visible swelling or redness on the infant's back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 7
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 7
+      }
+    ],
+    "age_group": "0-2",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 7,
+    "q_tag": "SYMPTOMS",
+    "question": "Has the infant recently fallen or experienced trauma?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 8
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 8
+      }
+    ],
+    "age_group": "0-2",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 8,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the infant arching their back frequently?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 9
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 9
+      }
+    ],
+    "age_group": "0-2",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 9,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the infant have a fever along with back pain symptoms?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 10
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 10
+      }
+    ],
+    "age_group": "0-2",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 10,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the infant refusing to eat or drink?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 11
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 11
+      }
+    ],
+    "age_group": "0-2",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 11,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the infant have trouble sleeping due to discomfort?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 12
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 12
+      }
+    ],
+    "age_group": "0-2",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 12,
+    "q_tag": "SYMPTOMS",
+    "question": "Are there any signs of infection, such as redness or warmth on the back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 13
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 13
+      }
+    ],
+    "age_group": "0-2",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 13,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the infant seem unusually irritable or lethargic?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 14
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 14
+      }
+    ],
+    "age_group": "0-2",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 14,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the infant showing signs of stiffness in the back or neck?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 15
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 15
+      }
+    ],
+    "age_group": "0-2",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 11501,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: Yes",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 0-2 Both answering 'Yes' to 'Has the infant been diagnosed with any congenital ...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "0-2",
+    "gender": "Both"
+  },
+  {
+    "q_id": 11502,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: No",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 0-2 Both answering 'No' to 'Has the infant been diagnosed with any congenital ...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "0-2",
+    "gender": "Both"
+  },
+  {
+    "q_id": 15,
+    "q_tag": "SYMPTOMS",
+    "question": "Has the infant been diagnosed with any congenital spine conditions?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 11501
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 11502
+      }
+    ],
+    "age_group": "0-2",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 16,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child complain of back pain after physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 17
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 17
+      }
+    ],
+    "age_group": "3-12",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 17,
+    "q_tag": "SYMPTOMS",
+    "question": "Has the child recently fallen or experienced an injury?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 18
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 18
+      }
+    ],
+    "age_group": "3-12",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 18,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have difficulty walking or standing?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 19
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 19
+      }
+    ],
+    "age_group": "3-12",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 19,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the child experiencing numbness or tingling in their legs?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 20
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 20
+      }
+    ],
+    "age_group": "3-12",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 20,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have a fever along with back pain?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 21
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 21
+      }
+    ],
+    "age_group": "3-12",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 21,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the child complaining of pain in the lower back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 22
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 22
+      }
+    ],
+    "age_group": "3-12",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 22,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have difficulty bending or twisting their back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 23
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 23
+      }
+    ],
+    "age_group": "3-12",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 23,
+    "q_tag": "SYMPTOMS",
+    "question": "Has the child been diagnosed with scoliosis or other spinal conditions?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 24
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 24
+      }
+    ],
+    "age_group": "3-12",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 24,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the child experiencing muscle spasms in the back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 25
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 25
+      }
+    ],
+    "age_group": "3-12",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 25,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 26
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 26
+      }
+    ],
+    "age_group": "3-12",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 26,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the child experiencing pain that radiates to the legs?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 27
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 27
+      }
+    ],
+    "age_group": "3-12",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 12701,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: Yes",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 3-12 Both answering 'Yes' to 'Does the child have difficulty sitting for long pe...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "3-12",
+    "gender": "Both"
+  },
+  {
+    "q_id": 12702,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: No",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 3-12 Both answering 'No' to 'Does the child have difficulty sitting for long pe...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "3-12",
+    "gender": "Both"
+  },
+  {
+    "q_id": 27,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have difficulty sitting for long periods?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 12701
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 12702
+      }
+    ],
+    "age_group": "3-12",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 28,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing back pain after sports or physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 29
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 29
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 29,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the teenager have pain that worsens with prolonged sitting?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 30
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 30
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 30,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing stiffness in the lower back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 31
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 31
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 31,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the teenager have a history of heavy lifting or poor posture?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 32
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 32
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 32,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing pain that radiates to the legs or buttocks?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 33
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 33
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 33,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the teenager have difficulty bending or twisting their back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 34
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 34
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 34,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing muscle spasms in the back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 35
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 35
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 35,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the teenager have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 36
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 36
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 13601,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: Yes",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 13-18 Both answering 'Yes' to 'Is the teenager experiencing pain that worsens in ...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "13-18",
+    "gender": "Both"
+  },
+  {
+    "q_id": 13602,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: No",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 13-18 Both answering 'No' to 'Is the teenager experiencing pain that worsens in ...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "13-18",
+    "gender": "Both"
+  },
+  {
+    "q_id": 36,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing pain that worsens in the morning?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 13601
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 13602
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 37,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the male teenager have pain after weightlifting or sports?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 38
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 38
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Male",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 38,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the male teenager experiencing pain in the lower back after prolonged standing?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 39
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 39
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Male",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 13901,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: Yes",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 13-18 Male answering 'Yes' to 'Does the male teenager have a history of back inju...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "13-18",
+    "gender": "Male"
+  },
+  {
+    "q_id": 13902,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: No",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 13-18 Male answering 'No' to 'Does the male teenager have a history of back inju...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "13-18",
+    "gender": "Male"
+  },
+  {
+    "q_id": 39,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the male teenager have a history of back injuries from sports?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 13901
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 13902
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Male",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 40,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the female teenager experiencing back pain during menstruation?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 41
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 41
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Female",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 41,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the female teenager have back pain after carrying a heavy backpack?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 42
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 42
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Female",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 14201,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: Yes",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 13-18 Female answering 'Yes' to 'Is the female teenager experiencing pain that radi...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "13-18",
+    "gender": "Female"
+  },
+  {
+    "q_id": 14202,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: No",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 13-18 Female answering 'No' to 'Is the female teenager experiencing pain that radi...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "13-18",
+    "gender": "Female"
+  },
+  {
+    "q_id": 42,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the female teenager experiencing pain that radiates to the hips or legs?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 14201
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 14202
+      }
+    ],
+    "age_group": "13-18",
+    "gender": "Female",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 43,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after prolonged sitting or standing?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 44
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 44
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 44,
+    "q_tag": "SYMPTOMS",
+    "question": "Is your back pain mild, moderate, or severe?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Mild",
+        "next_q_id": 45
+      },
+      {
+        "option_id": 2,
+        "opt_value": "Moderate",
+        "next_q_id": 45
+      },
+      {
+        "option_id": 3,
+        "opt_value": "Severe",
+        "next_q_id": 45
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 45,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain radiate to your legs or buttocks?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 46
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 46
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 46,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have a history of heavy lifting or poor posture?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 47
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 47
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 47,
+    "q_tag": "SYMPTOMS",
+    "question": "Is your back pain worse in the morning?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 48
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 48
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 48,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience stiffness in your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 49
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 49
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 49,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 50
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 50
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 50,
+    "q_tag": "SYMPTOMS",
+    "question": "Have you been diagnosed with a herniated disc or other spinal condition?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 51
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 51
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 15101,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: Yes",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 19-40 Both answering 'Yes' to 'Do you experience muscle spasms in your back?...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "19-40",
+    "gender": "Both"
+  },
+  {
+    "q_id": 15102,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: No",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 19-40 Both answering 'No' to 'Do you experience muscle spasms in your back?...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "19-40",
+    "gender": "Both"
+  },
+  {
+    "q_id": 51,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience muscle spasms in your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 15101
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 15102
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 52,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after weightlifting or physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 53
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 53
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Male",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 53,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen after prolonged standing?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 54
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 54
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Male",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 15401,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: Yes",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 19-40 Male answering 'Yes' to 'Do you experience sharp pain in your lower back?...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "19-40",
+    "gender": "Male"
+  },
+  {
+    "q_id": 15402,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: No",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 19-40 Male answering 'No' to 'Do you experience sharp pain in your lower back?...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "19-40",
+    "gender": "Male"
+  },
+  {
+    "q_id": 54,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience sharp pain in your lower back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 15401
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 15402
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Male",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 55,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain during menstruation?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 56
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 56
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Female",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 56,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain radiate to your hips or legs?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 57
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 57
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Female",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 15701,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: Yes",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 19-40 Female answering 'Yes' to 'Do you experience back pain after carrying heavy b...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "19-40",
+    "gender": "Female"
+  },
+  {
+    "q_id": 15702,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: No",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 19-40 Female answering 'No' to 'Do you experience back pain after carrying heavy b...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "19-40",
+    "gender": "Female"
+  },
+  {
+    "q_id": 57,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after carrying heavy bags or backpacks?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 15701
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 15702
+      }
+    ],
+    "age_group": "19-40",
+    "gender": "Female",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 58,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience chronic back pain that lasts for weeks or months?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 59
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 59
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 59,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen after physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 60
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 60
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 60,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain that radiates to your legs or feet?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 61
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 61
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 61,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have difficulty bending or twisting your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 62
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 62
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 62,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen in the morning?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 63
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 63
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 63,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience muscle spasms in your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 64
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 64
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 64,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 65
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 65
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 65,
+    "q_tag": "SYMPTOMS",
+    "question": "Have you been diagnosed with arthritis or other joint conditions?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 66
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 66
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 16601,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: Yes",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 41-65 Both answering 'Yes' to 'Do you experience numbness or tingling in your leg...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "41-65",
+    "gender": "Both"
+  },
+  {
+    "q_id": 16602,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: No",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 41-65 Both answering 'No' to 'Do you experience numbness or tingling in your leg...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "41-65",
+    "gender": "Both"
+  },
+  {
+    "q_id": 66,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience numbness or tingling in your legs or feet?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 16601
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 16602
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 67,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after heavy lifting or physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 68
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 68
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Male",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 68,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen after prolonged standing?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 69
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 69
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Male",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 16901,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: Yes",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 41-65 Male answering 'Yes' to 'Do you experience sharp pain in your lower back?...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "41-65",
+    "gender": "Male"
+  },
+  {
+    "q_id": 16902,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: No",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 41-65 Male answering 'No' to 'Do you experience sharp pain in your lower back?...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "41-65",
+    "gender": "Male"
+  },
+  {
+    "q_id": 69,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience sharp pain in your lower back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 16901
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 16902
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Male",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 70,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain during menopause or hormonal changes?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 71
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 71
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Female",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 71,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain radiate to your hips or legs?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 72
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 72
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Female",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 17201,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: Yes",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 41-65 Female answering 'Yes' to 'Do you experience back pain after carrying heavy b...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "41-65",
+    "gender": "Female"
+  },
+  {
+    "q_id": 17202,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: No",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 41-65 Female answering 'No' to 'Do you experience back pain after carrying heavy b...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "41-65",
+    "gender": "Female"
+  },
+  {
+    "q_id": 72,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after carrying heavy bags or backpacks?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 17201
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 17202
+      }
+    ],
+    "age_group": "41-65",
+    "gender": "Female",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 73,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience chronic back pain that has lasted for years?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 74
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 74
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 74,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen after physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 75
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 75
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 75,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain that radiates to your legs or feet?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 76
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 76
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 76,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have difficulty bending or twisting your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 77
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 77
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 77,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen in the morning?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 78
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 78
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 78,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience muscle spasms in your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 79
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 79
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 79,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 80
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 80
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 80,
+    "q_tag": "SYMPTOMS",
+    "question": "Have you been diagnosed with arthritis or other joint conditions?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 81
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 81
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 18101,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: Yes",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 66+ Both answering 'Yes' to 'Do you experience numbness or tingling in your leg...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "66+",
+    "gender": "Both"
+  },
+  {
+    "q_id": 18102,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: No",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 66+ Both answering 'No' to 'Do you experience numbness or tingling in your leg...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "66+",
+    "gender": "Both"
+  },
+  {
+    "q_id": 81,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience numbness or tingling in your legs or feet?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 18101
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 18102
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Both",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 82,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after heavy lifting or physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 83
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 83
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Male",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 83,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen after prolonged standing?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 84
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 84
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Male",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 18401,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: Yes",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 66+ Male answering 'Yes' to 'Do you experience sharp pain in your lower back?...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "66+",
+    "gender": "Male"
+  },
+  {
+    "q_id": 18402,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: No",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 66+ Male answering 'No' to 'Do you experience sharp pain in your lower back?...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "66+",
+    "gender": "Male"
+  },
+  {
+    "q_id": 84,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience sharp pain in your lower back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 18401
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 18402
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Male",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 85,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain during menopause or hormonal changes?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 86
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 86
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Female",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 86,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain radiate to your hips or legs?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 87
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 87
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Female",
+    "clinical_rationale": null
+  },
+  {
+    "q_id": 18701,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: Yes",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 66+ Female answering 'Yes' to 'Do you experience back pain after carrying heavy b...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "66+",
+    "gender": "Female"
+  },
+  {
+    "q_id": 18702,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis for path ending with: No",
+    "diagnosis": {
+      "title": "Diagnosis",
+      "description": "Based on 66+ Female answering 'No' to 'Do you experience back pain after carrying heavy b...'"
+    },
+    "lab_tests": [
+      "General examination recommended"
+    ],
+    "otc_medication": [
+      "Consult healthcare provider"
+    ],
+    "advice": [
+      "Seek appropriate medical care"
+    ],
+    "red_flags": [
+      "Monitor symptoms"
+    ],
+    "precautions": [
+      "Follow medical guidance"
+    ],
+    "age_group": "66+",
+    "gender": "Female"
+  },
+  {
+    "q_id": 87,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after carrying heavy bags or backpacks?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 18701
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 18702
+      }
+    ],
+    "age_group": "66+",
+    "gender": "Female",
+    "clinical_rationale": null
+  }
+]

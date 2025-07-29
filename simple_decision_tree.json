@@ -1,0 +1,3610 @@
+[
+  {
+    "id": 1,
+    "q_id": 1,
+    "q_tag": "GENERAL",
+    "question": "What is your gender?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Male",
+        "next_q_id": 2,
+        "nextQuestion": 2,
+        "childQuestion": 2,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "Female",
+        "next_q_id": 3,
+        "nextQuestion": 3,
+        "childQuestion": 3,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "q_id": 2,
+    "q_tag": "NEW",
+    "question": "What is your age group?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "0-2",
+        "next_q_id": 4,
+        "nextQuestion": 4,
+        "childQuestion": 4,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "3-12",
+        "next_q_id": 16,
+        "nextQuestion": 16,
+        "childQuestion": 16,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 3,
+        "opt_value": "13-18",
+        "next_q_id": 28,
+        "nextQuestion": 28,
+        "childQuestion": 28,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 4,
+        "opt_value": "19-40",
+        "next_q_id": 40,
+        "nextQuestion": 40,
+        "childQuestion": 40,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 5,
+        "opt_value": "41-65",
+        "next_q_id": 52,
+        "nextQuestion": 52,
+        "childQuestion": 52,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 6,
+        "opt_value": "66+",
+        "next_q_id": 64,
+        "nextQuestion": 64,
+        "childQuestion": 64,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "q_id": 3,
+    "q_tag": "NEW",
+    "question": "What is your age group?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "0-2",
+        "next_q_id": 4,
+        "nextQuestion": 4,
+        "childQuestion": 76,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "3-12",
+        "next_q_id": 16,
+        "nextQuestion": 16,
+        "childQuestion": 88,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 3,
+        "opt_value": "13-18",
+        "next_q_id": 28,
+        "nextQuestion": 28,
+        "childQuestion": 100,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 4,
+        "opt_value": "19-40",
+        "next_q_id": 40,
+        "nextQuestion": 40,
+        "childQuestion": 112,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 5,
+        "opt_value": "41-65",
+        "next_q_id": 52,
+        "nextQuestion": 52,
+        "childQuestion": 124,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 6,
+        "opt_value": "66+",
+        "next_q_id": 64,
+        "nextQuestion": 64,
+        "childQuestion": 136,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "q_id": 4,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the infant crying excessively or showing signs of discomfort?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 5,
+        "nextQuestion": 5,
+        "childQuestion": 5,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 5,
+        "nextQuestion": 5,
+        "childQuestion": 5,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "q_id": 5,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the infant have difficulty moving their legs or back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 6,
+        "nextQuestion": 6,
+        "childQuestion": 6,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 6,
+        "nextQuestion": 6,
+        "childQuestion": 6,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "q_id": 6,
+    "q_tag": "SYMPTOMS",
+    "question": "Is there any visible swelling or redness on the infant's back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 7,
+        "nextQuestion": 7,
+        "childQuestion": 7,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 7,
+        "nextQuestion": 7,
+        "childQuestion": 7,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "q_id": 7,
+    "q_tag": "SYMPTOMS",
+    "question": "Has the infant recently fallen or experienced trauma?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 8,
+        "nextQuestion": 8,
+        "childQuestion": 8,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 8,
+        "nextQuestion": 8,
+        "childQuestion": 8,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "q_id": 8,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the infant arching their back frequently?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 9,
+        "nextQuestion": 9,
+        "childQuestion": 9,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 9,
+        "nextQuestion": 9,
+        "childQuestion": 9,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "q_id": 9,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the infant have a fever along with back pain symptoms?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 10,
+        "nextQuestion": 10,
+        "childQuestion": 10,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 10,
+        "nextQuestion": 10,
+        "childQuestion": 10,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "q_id": 10,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the infant refusing to eat or drink?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 11,
+        "nextQuestion": 11,
+        "childQuestion": 11,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 11,
+        "nextQuestion": 11,
+        "childQuestion": 11,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "q_id": 11,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the infant have trouble sleeping due to discomfort?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 12,
+        "nextQuestion": 12,
+        "childQuestion": 12,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 12,
+        "nextQuestion": 12,
+        "childQuestion": 12,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "q_id": 12,
+    "q_tag": "SYMPTOMS",
+    "question": "Are there any signs of infection, such as redness or warmth on the back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 13,
+        "nextQuestion": 13,
+        "childQuestion": 13,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 13,
+        "nextQuestion": 13,
+        "childQuestion": 13,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "q_id": 13,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the infant seem unusually irritable or lethargic?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 14,
+        "nextQuestion": 14,
+        "childQuestion": 14,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 14,
+        "nextQuestion": 14,
+        "childQuestion": 14,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "q_id": 14,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the infant showing signs of stiffness in the back or neck?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 15,
+        "nextQuestion": 15,
+        "childQuestion": 15,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 15,
+        "nextQuestion": 15,
+        "childQuestion": 15,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "q_id": 15,
+    "q_tag": "SYMPTOMS",
+    "question": "Has the infant been diagnosed with any congenital spine conditions?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "q_id": 16,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child complain of back pain after physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 17,
+        "nextQuestion": 17,
+        "childQuestion": 17,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 17,
+        "nextQuestion": 17,
+        "childQuestion": 17,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "q_id": 17,
+    "q_tag": "SYMPTOMS",
+    "question": "Has the child recently fallen or experienced an injury?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 18,
+        "nextQuestion": 18,
+        "childQuestion": 18,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 18,
+        "nextQuestion": 18,
+        "childQuestion": 18,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "q_id": 18,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have difficulty walking or standing?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 19,
+        "nextQuestion": 19,
+        "childQuestion": 19,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 19,
+        "nextQuestion": 19,
+        "childQuestion": 19,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "q_id": 19,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the child experiencing numbness or tingling in their legs?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 20,
+        "nextQuestion": 20,
+        "childQuestion": 20,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 20,
+        "nextQuestion": 20,
+        "childQuestion": 20,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "q_id": 20,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have a fever along with back pain?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 21,
+        "nextQuestion": 21,
+        "childQuestion": 21,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 21,
+        "nextQuestion": 21,
+        "childQuestion": 21,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "q_id": 21,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the child complaining of pain in the lower back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 22,
+        "nextQuestion": 22,
+        "childQuestion": 22,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 22,
+        "nextQuestion": 22,
+        "childQuestion": 22,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "q_id": 22,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have difficulty bending or twisting their back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 23,
+        "nextQuestion": 23,
+        "childQuestion": 23,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 23,
+        "nextQuestion": 23,
+        "childQuestion": 23,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "q_id": 23,
+    "q_tag": "SYMPTOMS",
+    "question": "Has the child been diagnosed with scoliosis or other spinal conditions?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 24,
+        "nextQuestion": 24,
+        "childQuestion": 24,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 24,
+        "nextQuestion": 24,
+        "childQuestion": 24,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "q_id": 24,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the child experiencing muscle spasms in the back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 25,
+        "nextQuestion": 25,
+        "childQuestion": 25,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 25,
+        "nextQuestion": 25,
+        "childQuestion": 25,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "q_id": 25,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 26,
+        "nextQuestion": 26,
+        "childQuestion": 26,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 26,
+        "nextQuestion": 26,
+        "childQuestion": 26,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "q_id": 26,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the child experiencing pain that radiates to the legs?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 27,
+        "nextQuestion": 27,
+        "childQuestion": 27,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 27,
+        "nextQuestion": 27,
+        "childQuestion": 27,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "q_id": 27,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have difficulty sitting for long periods?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "q_id": 28,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing back pain after sports or physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 29,
+        "nextQuestion": 29,
+        "childQuestion": 29,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 29,
+        "nextQuestion": 29,
+        "childQuestion": 29,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "q_id": 29,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the teenager have pain that worsens with prolonged sitting?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 30,
+        "nextQuestion": 30,
+        "childQuestion": 30,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 30,
+        "nextQuestion": 30,
+        "childQuestion": 30,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "q_id": 30,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing stiffness in the lower back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 31,
+        "nextQuestion": 31,
+        "childQuestion": 31,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 31,
+        "nextQuestion": 31,
+        "childQuestion": 31,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "q_id": 31,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the teenager have a history of heavy lifting or poor posture?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 32,
+        "nextQuestion": 32,
+        "childQuestion": 32,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 32,
+        "nextQuestion": 32,
+        "childQuestion": 32,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "q_id": 32,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing pain that radiates to the legs or buttocks?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 33,
+        "nextQuestion": 33,
+        "childQuestion": 33,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 33,
+        "nextQuestion": 33,
+        "childQuestion": 33,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "q_id": 33,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the teenager have difficulty bending or twisting their back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 34,
+        "nextQuestion": 34,
+        "childQuestion": 34,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 34,
+        "nextQuestion": 34,
+        "childQuestion": 34,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "q_id": 34,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing muscle spasms in the back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 35,
+        "nextQuestion": 35,
+        "childQuestion": 35,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 35,
+        "nextQuestion": 35,
+        "childQuestion": 35,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "q_id": 35,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the teenager have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 36,
+        "nextQuestion": 36,
+        "childQuestion": 36,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 36,
+        "nextQuestion": 36,
+        "childQuestion": 36,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "q_id": 36,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing pain that worsens in the morning?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 37,
+        "nextQuestion": 37,
+        "childQuestion": 37,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 37,
+        "nextQuestion": 37,
+        "childQuestion": 37,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "q_id": 37,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the male teenager have pain after weightlifting or sports?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 38,
+        "nextQuestion": 38,
+        "childQuestion": 38,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 38,
+        "nextQuestion": 38,
+        "childQuestion": 38,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "q_id": 38,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the male teenager experiencing pain in the lower back after prolonged standing?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 39,
+        "nextQuestion": 39,
+        "childQuestion": 39,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 39,
+        "nextQuestion": 39,
+        "childQuestion": 39,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "q_id": 39,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the male teenager have a history of back injuries from sports?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "q_id": 40,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after prolonged sitting or standing?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 41,
+        "nextQuestion": 41,
+        "childQuestion": 41,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 41,
+        "nextQuestion": 41,
+        "childQuestion": 41,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "q_id": 41,
+    "q_tag": "SYMPTOMS",
+    "question": "Is your back pain mild, moderate, or severe?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Mild",
+        "next_q_id": 42,
+        "nextQuestion": 42,
+        "childQuestion": 42,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "Moderate",
+        "next_q_id": 42,
+        "nextQuestion": 42,
+        "childQuestion": 42,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 3,
+        "opt_value": "Severe",
+        "next_q_id": 42,
+        "nextQuestion": 42,
+        "childQuestion": 42,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "q_id": 42,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain radiate to your legs or buttocks?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 43,
+        "nextQuestion": 43,
+        "childQuestion": 43,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 43,
+        "nextQuestion": 43,
+        "childQuestion": 43,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "q_id": 43,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have a history of heavy lifting or poor posture?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 44,
+        "nextQuestion": 44,
+        "childQuestion": 44,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 44,
+        "nextQuestion": 44,
+        "childQuestion": 44,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "q_id": 44,
+    "q_tag": "SYMPTOMS",
+    "question": "Is your back pain worse in the morning?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 45,
+        "nextQuestion": 45,
+        "childQuestion": 45,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 45,
+        "nextQuestion": 45,
+        "childQuestion": 45,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "q_id": 45,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience stiffness in your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 46,
+        "nextQuestion": 46,
+        "childQuestion": 46,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 46,
+        "nextQuestion": 46,
+        "childQuestion": 46,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "q_id": 46,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 47,
+        "nextQuestion": 47,
+        "childQuestion": 47,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 47,
+        "nextQuestion": 47,
+        "childQuestion": 47,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "q_id": 47,
+    "q_tag": "SYMPTOMS",
+    "question": "Have you been diagnosed with a herniated disc or other spinal condition?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 48,
+        "nextQuestion": 48,
+        "childQuestion": 48,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 48,
+        "nextQuestion": 48,
+        "childQuestion": 48,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "q_id": 48,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience muscle spasms in your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 49,
+        "nextQuestion": 49,
+        "childQuestion": 49,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 49,
+        "nextQuestion": 49,
+        "childQuestion": 49,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "q_id": 49,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after weightlifting or physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 50,
+        "nextQuestion": 50,
+        "childQuestion": 50,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 50,
+        "nextQuestion": 50,
+        "childQuestion": 50,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "q_id": 50,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen after prolonged standing?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 51,
+        "nextQuestion": 51,
+        "childQuestion": 51,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 51,
+        "nextQuestion": 51,
+        "childQuestion": 51,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "q_id": 51,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience sharp pain in your lower back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "q_id": 52,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience chronic back pain that lasts for weeks or months?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 53,
+        "nextQuestion": 53,
+        "childQuestion": 53,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 53,
+        "nextQuestion": 53,
+        "childQuestion": 53,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "q_id": 53,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen after physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 54,
+        "nextQuestion": 54,
+        "childQuestion": 54,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 54,
+        "nextQuestion": 54,
+        "childQuestion": 54,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "q_id": 54,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain that radiates to your legs or feet?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 55,
+        "nextQuestion": 55,
+        "childQuestion": 55,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 55,
+        "nextQuestion": 55,
+        "childQuestion": 55,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "q_id": 55,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have difficulty bending or twisting your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 56,
+        "nextQuestion": 56,
+        "childQuestion": 56,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 56,
+        "nextQuestion": 56,
+        "childQuestion": 56,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "q_id": 56,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen in the morning?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 57,
+        "nextQuestion": 57,
+        "childQuestion": 57,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 57,
+        "nextQuestion": 57,
+        "childQuestion": 57,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "q_id": 57,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience muscle spasms in your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 58,
+        "nextQuestion": 58,
+        "childQuestion": 58,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 58,
+        "nextQuestion": 58,
+        "childQuestion": 58,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "q_id": 58,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 59,
+        "nextQuestion": 59,
+        "childQuestion": 59,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 59,
+        "nextQuestion": 59,
+        "childQuestion": 59,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "q_id": 59,
+    "q_tag": "SYMPTOMS",
+    "question": "Have you been diagnosed with arthritis or other joint conditions?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 60,
+        "nextQuestion": 60,
+        "childQuestion": 60,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 60,
+        "nextQuestion": 60,
+        "childQuestion": 60,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "q_id": 60,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience numbness or tingling in your legs or feet?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 61,
+        "nextQuestion": 61,
+        "childQuestion": 61,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 61,
+        "nextQuestion": 61,
+        "childQuestion": 61,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "q_id": 61,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after heavy lifting or physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 62,
+        "nextQuestion": 62,
+        "childQuestion": 62,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 62,
+        "nextQuestion": 62,
+        "childQuestion": 62,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "q_id": 62,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen after prolonged standing?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 63,
+        "nextQuestion": 63,
+        "childQuestion": 63,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 63,
+        "nextQuestion": 63,
+        "childQuestion": 63,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "q_id": 63,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience sharp pain in your lower back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "q_id": 64,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience chronic back pain that has lasted for years?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 65,
+        "nextQuestion": 65,
+        "childQuestion": 65,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 65,
+        "nextQuestion": 65,
+        "childQuestion": 65,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "q_id": 65,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen after physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 66,
+        "nextQuestion": 66,
+        "childQuestion": 66,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 66,
+        "nextQuestion": 66,
+        "childQuestion": 66,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "q_id": 66,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain that radiates to your legs or feet?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 67,
+        "nextQuestion": 67,
+        "childQuestion": 67,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 67,
+        "nextQuestion": 67,
+        "childQuestion": 67,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "q_id": 67,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have difficulty bending or twisting your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 68,
+        "nextQuestion": 68,
+        "childQuestion": 68,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 68,
+        "nextQuestion": 68,
+        "childQuestion": 68,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "q_id": 68,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen in the morning?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 69,
+        "nextQuestion": 69,
+        "childQuestion": 69,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 69,
+        "nextQuestion": 69,
+        "childQuestion": 69,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "q_id": 69,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience muscle spasms in your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 70,
+        "nextQuestion": 70,
+        "childQuestion": 70,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 70,
+        "nextQuestion": 70,
+        "childQuestion": 70,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "q_id": 70,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 71,
+        "nextQuestion": 71,
+        "childQuestion": 71,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 71,
+        "nextQuestion": 71,
+        "childQuestion": 71,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "q_id": 71,
+    "q_tag": "SYMPTOMS",
+    "question": "Have you been diagnosed with arthritis or other joint conditions?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 72,
+        "nextQuestion": 72,
+        "childQuestion": 72,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 72,
+        "nextQuestion": 72,
+        "childQuestion": 72,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "q_id": 72,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience numbness or tingling in your legs or feet?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 73,
+        "nextQuestion": 73,
+        "childQuestion": 73,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 73,
+        "nextQuestion": 73,
+        "childQuestion": 73,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "q_id": 73,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after heavy lifting or physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 74,
+        "nextQuestion": 74,
+        "childQuestion": 74,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 74,
+        "nextQuestion": 74,
+        "childQuestion": 74,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "q_id": 74,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen after prolonged standing?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 75,
+        "nextQuestion": 75,
+        "childQuestion": 75,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 75,
+        "nextQuestion": 75,
+        "childQuestion": 75,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "q_id": 75,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience sharp pain in your lower back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "q_id": 4,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the infant crying excessively or showing signs of discomfort?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 5,
+        "nextQuestion": 5,
+        "childQuestion": 5,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 5,
+        "nextQuestion": 5,
+        "childQuestion": 5,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "q_id": 5,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the infant have difficulty moving their legs or back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 6,
+        "nextQuestion": 6,
+        "childQuestion": 6,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 6,
+        "nextQuestion": 6,
+        "childQuestion": 6,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "q_id": 6,
+    "q_tag": "SYMPTOMS",
+    "question": "Is there any visible swelling or redness on the infant's back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 7,
+        "nextQuestion": 7,
+        "childQuestion": 7,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 7,
+        "nextQuestion": 7,
+        "childQuestion": 7,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "q_id": 7,
+    "q_tag": "SYMPTOMS",
+    "question": "Has the infant recently fallen or experienced trauma?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 8,
+        "nextQuestion": 8,
+        "childQuestion": 8,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 8,
+        "nextQuestion": 8,
+        "childQuestion": 8,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "q_id": 8,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the infant arching their back frequently?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 9,
+        "nextQuestion": 9,
+        "childQuestion": 9,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 9,
+        "nextQuestion": 9,
+        "childQuestion": 9,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "q_id": 9,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the infant have a fever along with back pain symptoms?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 10,
+        "nextQuestion": 10,
+        "childQuestion": 10,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 10,
+        "nextQuestion": 10,
+        "childQuestion": 10,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "q_id": 10,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the infant refusing to eat or drink?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 11,
+        "nextQuestion": 11,
+        "childQuestion": 11,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 11,
+        "nextQuestion": 11,
+        "childQuestion": 11,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "q_id": 11,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the infant have trouble sleeping due to discomfort?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 12,
+        "nextQuestion": 12,
+        "childQuestion": 12,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 12,
+        "nextQuestion": 12,
+        "childQuestion": 12,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "q_id": 12,
+    "q_tag": "SYMPTOMS",
+    "question": "Are there any signs of infection, such as redness or warmth on the back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 13,
+        "nextQuestion": 13,
+        "childQuestion": 13,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 13,
+        "nextQuestion": 13,
+        "childQuestion": 13,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "q_id": 13,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the infant seem unusually irritable or lethargic?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 14,
+        "nextQuestion": 14,
+        "childQuestion": 14,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 14,
+        "nextQuestion": 14,
+        "childQuestion": 14,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "q_id": 14,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the infant showing signs of stiffness in the back or neck?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 15,
+        "nextQuestion": 15,
+        "childQuestion": 15,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 15,
+        "nextQuestion": 15,
+        "childQuestion": 15,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "q_id": 15,
+    "q_tag": "SYMPTOMS",
+    "question": "Has the infant been diagnosed with any congenital spine conditions?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "q_id": 16,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child complain of back pain after physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 17,
+        "nextQuestion": 17,
+        "childQuestion": 17,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 17,
+        "nextQuestion": 17,
+        "childQuestion": 17,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "q_id": 17,
+    "q_tag": "SYMPTOMS",
+    "question": "Has the child recently fallen or experienced an injury?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 18,
+        "nextQuestion": 18,
+        "childQuestion": 18,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 18,
+        "nextQuestion": 18,
+        "childQuestion": 18,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "q_id": 18,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have difficulty walking or standing?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 19,
+        "nextQuestion": 19,
+        "childQuestion": 19,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 19,
+        "nextQuestion": 19,
+        "childQuestion": 19,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "q_id": 19,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the child experiencing numbness or tingling in their legs?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 20,
+        "nextQuestion": 20,
+        "childQuestion": 20,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 20,
+        "nextQuestion": 20,
+        "childQuestion": 20,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "q_id": 20,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have a fever along with back pain?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 21,
+        "nextQuestion": 21,
+        "childQuestion": 21,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 21,
+        "nextQuestion": 21,
+        "childQuestion": 21,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "q_id": 21,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the child complaining of pain in the lower back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 22,
+        "nextQuestion": 22,
+        "childQuestion": 22,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 22,
+        "nextQuestion": 22,
+        "childQuestion": 22,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "q_id": 22,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have difficulty bending or twisting their back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 23,
+        "nextQuestion": 23,
+        "childQuestion": 23,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 23,
+        "nextQuestion": 23,
+        "childQuestion": 23,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "q_id": 23,
+    "q_tag": "SYMPTOMS",
+    "question": "Has the child been diagnosed with scoliosis or other spinal conditions?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 24,
+        "nextQuestion": 24,
+        "childQuestion": 24,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 24,
+        "nextQuestion": 24,
+        "childQuestion": 24,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "q_id": 24,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the child experiencing muscle spasms in the back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 25,
+        "nextQuestion": 25,
+        "childQuestion": 25,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 25,
+        "nextQuestion": 25,
+        "childQuestion": 25,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "q_id": 25,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 26,
+        "nextQuestion": 26,
+        "childQuestion": 26,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 26,
+        "nextQuestion": 26,
+        "childQuestion": 26,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "q_id": 26,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the child experiencing pain that radiates to the legs?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 27,
+        "nextQuestion": 27,
+        "childQuestion": 27,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 27,
+        "nextQuestion": 27,
+        "childQuestion": 27,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "q_id": 27,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have difficulty sitting for long periods?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "q_id": 28,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing back pain after sports or physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 29,
+        "nextQuestion": 29,
+        "childQuestion": 29,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 29,
+        "nextQuestion": 29,
+        "childQuestion": 29,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "q_id": 29,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the teenager have pain that worsens with prolonged sitting?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 30,
+        "nextQuestion": 30,
+        "childQuestion": 30,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 30,
+        "nextQuestion": 30,
+        "childQuestion": 30,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "q_id": 30,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing stiffness in the lower back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 31,
+        "nextQuestion": 31,
+        "childQuestion": 31,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 31,
+        "nextQuestion": 31,
+        "childQuestion": 31,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "q_id": 31,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the teenager have a history of heavy lifting or poor posture?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 32,
+        "nextQuestion": 32,
+        "childQuestion": 32,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 32,
+        "nextQuestion": 32,
+        "childQuestion": 32,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "q_id": 32,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing pain that radiates to the legs or buttocks?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 33,
+        "nextQuestion": 33,
+        "childQuestion": 33,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 33,
+        "nextQuestion": 33,
+        "childQuestion": 33,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "q_id": 33,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the teenager have difficulty bending or twisting their back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 34,
+        "nextQuestion": 34,
+        "childQuestion": 34,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 34,
+        "nextQuestion": 34,
+        "childQuestion": 34,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "q_id": 34,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing muscle spasms in the back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 35,
+        "nextQuestion": 35,
+        "childQuestion": 35,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 35,
+        "nextQuestion": 35,
+        "childQuestion": 35,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "q_id": 35,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the teenager have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 36,
+        "nextQuestion": 36,
+        "childQuestion": 36,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 36,
+        "nextQuestion": 36,
+        "childQuestion": 36,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "q_id": 36,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the teenager experiencing pain that worsens in the morning?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 37,
+        "nextQuestion": 37,
+        "childQuestion": 37,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 37,
+        "nextQuestion": 37,
+        "childQuestion": 37,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "q_id": 37,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the female teenager experiencing back pain during menstruation?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 38,
+        "nextQuestion": 38,
+        "childQuestion": 38,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 38,
+        "nextQuestion": 38,
+        "childQuestion": 38,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "q_id": 38,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the female teenager have back pain after carrying a heavy backpack?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 39,
+        "nextQuestion": 39,
+        "childQuestion": 39,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 39,
+        "nextQuestion": 39,
+        "childQuestion": 39,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "q_id": 39,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the female teenager experiencing pain that radiates to the hips or legs?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "q_id": 40,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after prolonged sitting or standing?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 41,
+        "nextQuestion": 41,
+        "childQuestion": 41,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 41,
+        "nextQuestion": 41,
+        "childQuestion": 41,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "q_id": 41,
+    "q_tag": "SYMPTOMS",
+    "question": "Is your back pain mild, moderate, or severe?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Mild",
+        "next_q_id": 42,
+        "nextQuestion": 42,
+        "childQuestion": 42,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "Moderate",
+        "next_q_id": 42,
+        "nextQuestion": 42,
+        "childQuestion": 42,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 3,
+        "opt_value": "Severe",
+        "next_q_id": 42,
+        "nextQuestion": 42,
+        "childQuestion": 42,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "q_id": 42,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain radiate to your legs or buttocks?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 43,
+        "nextQuestion": 43,
+        "childQuestion": 43,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 43,
+        "nextQuestion": 43,
+        "childQuestion": 43,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "q_id": 43,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have a history of heavy lifting or poor posture?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 44,
+        "nextQuestion": 44,
+        "childQuestion": 44,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 44,
+        "nextQuestion": 44,
+        "childQuestion": 44,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "q_id": 44,
+    "q_tag": "SYMPTOMS",
+    "question": "Is your back pain worse in the morning?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 45,
+        "nextQuestion": 45,
+        "childQuestion": 45,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 45,
+        "nextQuestion": 45,
+        "childQuestion": 45,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "q_id": 45,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience stiffness in your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 46,
+        "nextQuestion": 46,
+        "childQuestion": 46,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 46,
+        "nextQuestion": 46,
+        "childQuestion": 46,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "q_id": 46,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 47,
+        "nextQuestion": 47,
+        "childQuestion": 47,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 47,
+        "nextQuestion": 47,
+        "childQuestion": 47,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "q_id": 47,
+    "q_tag": "SYMPTOMS",
+    "question": "Have you been diagnosed with a herniated disc or other spinal condition?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 48,
+        "nextQuestion": 48,
+        "childQuestion": 48,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 48,
+        "nextQuestion": 48,
+        "childQuestion": 48,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "q_id": 48,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience muscle spasms in your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 49,
+        "nextQuestion": 49,
+        "childQuestion": 49,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 49,
+        "nextQuestion": 49,
+        "childQuestion": 49,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "q_id": 49,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain during menstruation?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 50,
+        "nextQuestion": 50,
+        "childQuestion": 50,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 50,
+        "nextQuestion": 50,
+        "childQuestion": 50,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "q_id": 50,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain radiate to your hips or legs?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 51,
+        "nextQuestion": 51,
+        "childQuestion": 51,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 51,
+        "nextQuestion": 51,
+        "childQuestion": 51,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "q_id": 51,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after carrying heavy bags or backpacks?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "q_id": 52,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience chronic back pain that lasts for weeks or months?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 53,
+        "nextQuestion": 53,
+        "childQuestion": 53,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 53,
+        "nextQuestion": 53,
+        "childQuestion": 53,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "q_id": 53,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen after physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 54,
+        "nextQuestion": 54,
+        "childQuestion": 54,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 54,
+        "nextQuestion": 54,
+        "childQuestion": 54,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "q_id": 54,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain that radiates to your legs or feet?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 55,
+        "nextQuestion": 55,
+        "childQuestion": 55,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 55,
+        "nextQuestion": 55,
+        "childQuestion": 55,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "q_id": 55,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have difficulty bending or twisting your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 56,
+        "nextQuestion": 56,
+        "childQuestion": 56,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 56,
+        "nextQuestion": 56,
+        "childQuestion": 56,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "q_id": 56,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen in the morning?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 57,
+        "nextQuestion": 57,
+        "childQuestion": 57,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 57,
+        "nextQuestion": 57,
+        "childQuestion": 57,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "q_id": 57,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience muscle spasms in your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 58,
+        "nextQuestion": 58,
+        "childQuestion": 58,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 58,
+        "nextQuestion": 58,
+        "childQuestion": 58,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "q_id": 58,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 59,
+        "nextQuestion": 59,
+        "childQuestion": 59,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 59,
+        "nextQuestion": 59,
+        "childQuestion": 59,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "q_id": 59,
+    "q_tag": "SYMPTOMS",
+    "question": "Have you been diagnosed with arthritis or other joint conditions?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 60,
+        "nextQuestion": 60,
+        "childQuestion": 60,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 60,
+        "nextQuestion": 60,
+        "childQuestion": 60,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "q_id": 60,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience numbness or tingling in your legs or feet?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 61,
+        "nextQuestion": 61,
+        "childQuestion": 61,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 61,
+        "nextQuestion": 61,
+        "childQuestion": 61,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "q_id": 61,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain during menopause or hormonal changes?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 62,
+        "nextQuestion": 62,
+        "childQuestion": 62,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 62,
+        "nextQuestion": 62,
+        "childQuestion": 62,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "q_id": 62,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain radiate to your hips or legs?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 63,
+        "nextQuestion": 63,
+        "childQuestion": 63,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 63,
+        "nextQuestion": 63,
+        "childQuestion": 63,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "q_id": 63,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after carrying heavy bags or backpacks?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "q_id": 64,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience chronic back pain that has lasted for years?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 65,
+        "nextQuestion": 65,
+        "childQuestion": 65,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 65,
+        "nextQuestion": 65,
+        "childQuestion": 65,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "q_id": 65,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen after physical activity?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 66,
+        "nextQuestion": 66,
+        "childQuestion": 66,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 66,
+        "nextQuestion": 66,
+        "childQuestion": 66,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "q_id": 66,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain that radiates to your legs or feet?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 67,
+        "nextQuestion": 67,
+        "childQuestion": 67,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 67,
+        "nextQuestion": 67,
+        "childQuestion": 67,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "q_id": 67,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have difficulty bending or twisting your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 68,
+        "nextQuestion": 68,
+        "childQuestion": 68,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 68,
+        "nextQuestion": 68,
+        "childQuestion": 68,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "q_id": 68,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain worsen in the morning?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 69,
+        "nextQuestion": 69,
+        "childQuestion": 69,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 69,
+        "nextQuestion": 69,
+        "childQuestion": 69,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "q_id": 69,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience muscle spasms in your back?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 70,
+        "nextQuestion": 70,
+        "childQuestion": 70,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 70,
+        "nextQuestion": 70,
+        "childQuestion": 70,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "q_id": 70,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you have a family history of back problems?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 71,
+        "nextQuestion": 71,
+        "childQuestion": 71,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 71,
+        "nextQuestion": 71,
+        "childQuestion": 71,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "q_id": 71,
+    "q_tag": "SYMPTOMS",
+    "question": "Have you been diagnosed with arthritis or other joint conditions?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 72,
+        "nextQuestion": 72,
+        "childQuestion": 72,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 72,
+        "nextQuestion": 72,
+        "childQuestion": 72,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "q_id": 72,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience numbness or tingling in your legs or feet?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 73,
+        "nextQuestion": 73,
+        "childQuestion": 73,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 73,
+        "nextQuestion": 73,
+        "childQuestion": 73,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "q_id": 73,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain during menopause or hormonal changes?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 74,
+        "nextQuestion": 74,
+        "childQuestion": 74,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 74,
+        "nextQuestion": 74,
+        "childQuestion": 74,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "q_id": 74,
+    "q_tag": "SYMPTOMS",
+    "question": "Does your back pain radiate to your hips or legs?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 75,
+        "nextQuestion": 75,
+        "childQuestion": 75,
+        "childDiagnosis": null
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 75,
+        "nextQuestion": 75,
+        "childQuestion": 75,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "q_id": 75,
+    "q_tag": "SYMPTOMS",
+    "question": "Do you experience back pain after carrying heavy bags or backpacks?",
+    "options": [
+      {
+        "option_id": 1,
+        "opt_value": "Yes",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      },
+      {
+        "option_id": 2,
+        "opt_value": "No",
+        "next_q_id": 100000001,
+        "nextQuestion": null,
+        "childQuestion": null,
+        "childDiagnosis": 100000001
+      }
+    ]
+  }
+]
