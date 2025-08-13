@@ -1,0 +1,218 @@
+[
+  {
+    "id": 5,
+    "q_id": 5,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the infant have difficulty breathing?",
+    "options": [
+      {
+        "next_q_id": 9,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 9,
+        "childQuestion": 9,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 3,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 3,
+        "childQuestion": 3,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 9,
+    "q_id": 9,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the infant wheezing while coughing?",
+    "options": [
+      {
+        "next_q_id": 3,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 3,
+        "childQuestion": 3,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 8,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 8,
+        "childQuestion": 8,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 3,
+    "q_id": 3,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the infant have a persistent cough?",
+    "options": [
+      {
+        "next_q_id": 8,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 8,
+        "childQuestion": 8,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 6,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 6,
+        "childQuestion": 6,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 8,
+    "q_id": 8,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the infant's cough worse at night?",
+    "options": [
+      {
+        "next_q_id": 6,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 6,
+        "childQuestion": 6,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 4,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 4,
+        "childQuestion": 4,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 6,
+    "q_id": 6,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the cough wet or productive?",
+    "options": [
+      {
+        "next_q_id": 1001,
+        "opt_value": "Wet",
+        "option_id": 1,
+        "nextQuestion": 1001,
+        "childQuestion": 1001,
+        "childDiagnosis": 1001
+      },
+      {
+        "next_q_id": 1002,
+        "opt_value": "Dry",
+        "option_id": 2,
+        "nextQuestion": 1002,
+        "childQuestion": 1002,
+        "childDiagnosis": 1002
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1001,
+    "q_id": 1001,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Bronchiolitis",
+    "options": [],
+    "advice": [
+      "Ensure adequate hydration",
+      "Monitor breathing patterns",
+      "Seek medical attention if symptoms worsen"
+    ],
+    "diagnosis": {
+      "reasoning": "Very high confidence (95%) based on comprehensive 5-question assessment: difficulty breathing, wheezing, persistent cough, night worsening, and wet cough. This complete symptom constellation strongly indicates bronchiolitis, a common respiratory condition in infants.",
+      "description": "Bronchiolitis is an inflammatory respiratory condition affecting the bronchioles, often caused by viral infections such as RSV.",
+      "diagnosis_title": "Bronchiolitis",
+      "confidence_threshold": 95.0,
+      "icd_code": "J21.9"
+    },
+    "lab_tests": [
+      "Chest X-ray",
+      "Viral panel"
+    ],
+    "red_flags": [
+      "Severe difficulty breathing",
+      "Bluish skin color"
+    ],
+    "precautions": [
+      "Avoid exposure to smoke"
+    ],
+    "otc_medication": [
+      "Saline nasal drops"
+    ]
+  },
+  {
+    "id": 1002,
+    "q_id": 1002,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Asthma",
+    "options": [],
+    "advice": [
+      "Avoid known allergens",
+      "Use prescribed inhalers",
+      "Regular follow-up with pediatrician"
+    ],
+    "diagnosis": {
+      "reasoning": "Good confidence (90%) based on thorough 5-question evaluation: difficulty breathing, wheezing, persistent cough, night worsening, and dry cough. This symptom pattern suggests asthma, though further testing may be required to confirm.",
+      "description": "Asthma is a chronic inflammatory disease of the airways characterized by episodes of wheezing, breathlessness, and coughing.",
+      "diagnosis_title": "Asthma",
+      "confidence_threshold": 90.0,
+      "icd_code": "J45.9"
+    },
+    "lab_tests": [
+      "Pulmonary function test",
+      "Allergy testing"
+    ],
+    "red_flags": [
+      "Severe wheezing",
+      "Inability to speak in full sentences"
+    ],
+    "precautions": [
+      "Avoid exposure to allergens"
+    ],
+    "otc_medication": [
+      "Antihistamines"
+    ]
+  }
+]

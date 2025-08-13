@@ -1,0 +1,215 @@
+[
+  {
+    "id": 15,
+    "q_id": 15,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have a persistent cough?",
+    "options": [
+      {
+        "next_q_id": 16,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 16,
+        "childQuestion": 16,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 24,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 24,
+        "childQuestion": 24,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 16,
+    "q_id": 16,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the cough accompanied by a sore throat?",
+    "options": [
+      {
+        "next_q_id": 17,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 17,
+        "childQuestion": 17,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 20,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 20,
+        "childQuestion": 20,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 17,
+    "q_id": 17,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child have a fever along with the cough?",
+    "options": [
+      {
+        "next_q_id": 18,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 18,
+        "childQuestion": 18,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 21,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 21,
+        "childQuestion": 21,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 18,
+    "q_id": 18,
+    "q_tag": "SYMPTOMS",
+    "question": "Is the cough dry or productive?",
+    "options": [
+      {
+        "next_q_id": 19,
+        "opt_value": "Dry",
+        "option_id": 1,
+        "nextQuestion": 19,
+        "childQuestion": 19,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 19,
+        "opt_value": "Productive",
+        "option_id": 2,
+        "nextQuestion": 19,
+        "childQuestion": 19,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 19,
+    "q_id": 19,
+    "q_tag": "SYMPTOMS",
+    "question": "Does the child experience chest pain while coughing?",
+    "options": [
+      {
+        "next_q_id": 1001,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1001,
+        "childQuestion": 1001,
+        "childDiagnosis": 1001
+      },
+      {
+        "next_q_id": 1002,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 1002,
+        "childQuestion": 1002,
+        "childDiagnosis": 1002
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1001,
+    "q_id": 1001,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Bacterial Pneumonia",
+    "options": [],
+    "advice": [
+      "Seek immediate medical attention",
+      "Ensure adequate hydration"
+    ],
+    "diagnosis": {
+      "reasoning": "Very high confidence (95%) due to comprehensive 5-question assessment: persistent cough, sore throat, fever, productive cough, and chest pain. This complete clinical picture strongly indicates bacterial pneumonia requiring immediate intervention.",
+      "description": "Bacterial pneumonia is an infection of the lungs caused by bacteria, leading to inflammation and fluid accumulation.",
+      "diagnosis_title": "Bacterial Pneumonia",
+      "confidence_threshold": 95.0,
+      "icd_code": "J15.9"
+    },
+    "lab_tests": [
+      "Chest X-ray",
+      "Complete blood count"
+    ],
+    "red_flags": [
+      "High fever",
+      "Difficulty breathing"
+    ],
+    "precautions": [
+      "Avoid exposure to cold air"
+    ],
+    "otc_medication": [
+      "Acetaminophen for fever"
+    ]
+  },
+  {
+    "id": 1002,
+    "q_id": 1002,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Viral Upper Respiratory Infection",
+    "options": [],
+    "advice": [
+      "Rest and hydration",
+      "Use a humidifier"
+    ],
+    "diagnosis": {
+      "reasoning": "Good confidence (90%) based on comprehensive 5-question evaluation: persistent cough, sore throat, fever, productive cough, and absence of chest pain. This symptom pattern suggests a viral upper respiratory infection, with all major diagnostic criteria met.",
+      "description": "A viral upper respiratory infection is a common viral infection that affects the nose, throat, and airways.",
+      "diagnosis_title": "Viral Upper Respiratory Infection",
+      "confidence_threshold": 90.0,
+      "icd_code": "J06.9"
+    },
+    "lab_tests": [
+      "None typically required"
+    ],
+    "red_flags": [
+      "Persistent high fever",
+      "Worsening symptoms"
+    ],
+    "precautions": [
+      "Avoid contact with others to prevent spread"
+    ],
+    "otc_medication": [
+      "Cough syrup"
+    ]
+  }
+]

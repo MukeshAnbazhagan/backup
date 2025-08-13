@@ -1,0 +1,3672 @@
+[
+  {
+    "id": 1,
+    "q_id": 1,
+    "q_tag": "DEMOGRAPHICS",
+    "question": "What is your gender?",
+    "options": [
+      {
+        "next_q_id": 2,
+        "opt_value": "Male",
+        "option_id": 1,
+        "nextQuestion": 2,
+        "childQuestion": 2,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 3,
+        "opt_value": "Female",
+        "option_id": 2,
+        "nextQuestion": 3,
+        "childQuestion": 3,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "q_id": 2,
+    "q_tag": "DEMOGRAPHICS",
+    "question": "What is your age? (Male)",
+    "options": [
+      {
+        "next_q_id": 4,
+        "opt_value": "Age 0-2",
+        "option_id": 1,
+        "nextQuestion": 4,
+        "childQuestion": 4,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 9,
+        "opt_value": "Age 3-12",
+        "option_id": 2,
+        "nextQuestion": 9,
+        "childQuestion": 9,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 14,
+        "opt_value": "Age 13-18",
+        "option_id": 3,
+        "nextQuestion": 14,
+        "childQuestion": 14,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 33,
+        "opt_value": "Age 19-40",
+        "option_id": 4,
+        "nextQuestion": 33,
+        "childQuestion": 33,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 43,
+        "opt_value": "Age 41-65",
+        "option_id": 5,
+        "nextQuestion": 43,
+        "childQuestion": 43,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 61,
+        "opt_value": "Age 66+",
+        "option_id": 6,
+        "nextQuestion": 61,
+        "childQuestion": 61,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "q_id": 3,
+    "q_tag": "DEMOGRAPHICS",
+    "question": "What is your age? (Female)",
+    "options": [
+      {
+        "next_q_id": 4,
+        "opt_value": "Age 0-2",
+        "option_id": 1,
+        "nextQuestion": 4,
+        "childQuestion": 4,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 9,
+        "opt_value": "Age 3-12",
+        "option_id": 2,
+        "nextQuestion": 9,
+        "childQuestion": 9,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 24,
+        "opt_value": "Age 13-18",
+        "option_id": 3,
+        "nextQuestion": 24,
+        "childQuestion": 24,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 38,
+        "opt_value": "Age 19-40",
+        "option_id": 4,
+        "nextQuestion": 38,
+        "childQuestion": 38,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 55,
+        "opt_value": "Age 41-65",
+        "option_id": 5,
+        "nextQuestion": 55,
+        "childQuestion": 55,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 68,
+        "opt_value": "Age 66+",
+        "option_id": 6,
+        "nextQuestion": 68,
+        "childQuestion": 68,
+        "childDiagnosis": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "q_id": 4,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the infant have difficulty breathing?",
+    "options": [
+      {
+        "next_q_id": 5,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 5,
+        "childQuestion": 5,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 6,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 6,
+        "childQuestion": 6,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 5,
+    "q_id": 5,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the infant wheezing while coughing?",
+    "options": [
+      {
+        "next_q_id": 6,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 6,
+        "childQuestion": 6,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 7,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 7,
+        "childQuestion": 7,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 6,
+    "q_id": 6,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the infant have a persistent cough?",
+    "options": [
+      {
+        "next_q_id": 7,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 7,
+        "childQuestion": 7,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 8,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 8,
+        "childQuestion": 8,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 7,
+    "q_id": 7,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the infant's cough worse at night?",
+    "options": [
+      {
+        "next_q_id": 8,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 8,
+        "childQuestion": 8,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 4,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 4,
+        "childQuestion": 4,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 8,
+    "q_id": 8,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough wet or productive?",
+    "options": [
+      {
+        "next_q_id": 1001,
+        "opt_value": "Wet",
+        "option_id": 1,
+        "nextQuestion": 1001,
+        "childQuestion": 1001,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 1002,
+        "opt_value": "Dry",
+        "option_id": 2,
+        "nextQuestion": 1002,
+        "childQuestion": 1002,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1001,
+    "q_id": 1001,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Bronchiolitis",
+    "options": [],
+    "advice": [
+      "Ensure adequate hydration",
+      "Monitor breathing closely",
+      "Seek medical attention if symptoms worsen"
+    ],
+    "diagnosis": {
+      "reasoning": "Very high confidence (95%) based on comprehensive 5-question assessment: difficulty breathing + wheezing + persistent cough + night worsening + wet cough. This symptom constellation strongly indicates bronchiolitis, a common viral infection in infants.",
+      "description": "Bronchiolitis is a common lung infection in young children and infants. It causes inflammation and congestion in the small airways (bronchioles) of the lung.",
+      "diagnosis_title": "Bronchiolitis",
+      "confidence_threshold": 95.0,
+      "icd_code": "J21.9"
+    },
+    "lab_tests": [
+      "Chest X-ray",
+      "Pulse oximetry"
+    ],
+    "red_flags": [
+      "Severe difficulty breathing",
+      "Bluish skin color"
+    ],
+    "precautions": [
+      "Avoid smoke exposure"
+    ],
+    "otc_medication": [
+      "Saline nasal drops"
+    ]
+  },
+  {
+    "id": 1002,
+    "q_id": 1002,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Viral Upper Respiratory Infection",
+    "options": [],
+    "advice": [
+      "Maintain hydration",
+      "Use a humidifier",
+      "Monitor symptoms"
+    ],
+    "diagnosis": {
+      "reasoning": "Good confidence (90%) based on thorough 5-question evaluation: no difficulty breathing + no wheezing + persistent dry cough + night worsening + no fever. This pattern suggests a viral upper respiratory infection, common in infants.",
+      "description": "A viral upper respiratory infection is an infection that affects the upper part of the respiratory system, including the nose, throat, and airways.",
+      "diagnosis_title": "Viral Upper Respiratory Infection",
+      "confidence_threshold": 90.0,
+      "icd_code": "J06.9"
+    },
+    "lab_tests": [
+      "None typically required"
+    ],
+    "red_flags": [
+      "High fever",
+      "Persistent cough"
+    ],
+    "precautions": [
+      "Avoid crowded places"
+    ],
+    "otc_medication": [
+      "Acetaminophen for fever"
+    ]
+  },
+  {
+    "id": 9,
+    "q_id": 9,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the child have a persistent cough?",
+    "options": [
+      {
+        "next_q_id": 10,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 10,
+        "childQuestion": 10,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 24,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 24,
+        "childQuestion": 24,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 10,
+    "q_id": 10,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough accompanied by a sore throat?",
+    "options": [
+      {
+        "next_q_id": 11,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 11,
+        "childQuestion": 11,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 20,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 20,
+        "childQuestion": 20,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 11,
+    "q_id": 11,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the child have a fever along with the cough?",
+    "options": [
+      {
+        "next_q_id": 12,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 12,
+        "childQuestion": 12,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 21,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 21,
+        "childQuestion": 21,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 12,
+    "q_id": 12,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough dry or productive?",
+    "options": [
+      {
+        "next_q_id": 13,
+        "opt_value": "Dry",
+        "option_id": 1,
+        "nextQuestion": 13,
+        "childQuestion": 13,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 1003,
+        "opt_value": "Productive",
+        "option_id": 2,
+        "nextQuestion": 1003,
+        "childQuestion": 1003,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 13,
+    "q_id": 13,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the child experience chest pain while coughing?",
+    "options": [
+      {
+        "next_q_id": 1004,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1004,
+        "childQuestion": 1004,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 1005,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 1005,
+        "childQuestion": 1005,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1003,
+    "q_id": 1003,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Bacterial Pneumonia",
+    "options": [],
+    "advice": [
+      "Ensure adequate hydration",
+      "Administer prescribed antibiotics"
+    ],
+    "diagnosis": {
+      "reasoning": "Very high confidence (95%) based on comprehensive 5-question assessment: persistent cough + sore throat + fever + productive cough + chest pain. This complete symptom constellation strongly indicates bacterial pneumonia.",
+      "description": "Bacterial pneumonia is an infection of the lungs caused by bacteria, leading to inflammation and fluid accumulation.",
+      "diagnosis_title": "Bacterial Pneumonia",
+      "confidence_threshold": 95.0,
+      "icd_code": "J15.9"
+    },
+    "lab_tests": [
+      "Chest X-ray",
+      "Complete blood count"
+    ],
+    "red_flags": [
+      "High fever",
+      "Difficulty breathing"
+    ],
+    "precautions": [
+      "Avoid exposure to cold air"
+    ],
+    "otc_medication": [
+      "Acetaminophen for fever"
+    ]
+  },
+  {
+    "id": 1004,
+    "q_id": 1004,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Viral Upper Respiratory Infection",
+    "options": [],
+    "advice": [
+      "Rest and hydration",
+      "Use saline nasal spray"
+    ],
+    "diagnosis": {
+      "reasoning": "Reasonable confidence (85%) based on comprehensive 5-question assessment: persistent cough + sore throat + fever + dry cough + chest pain. This pattern suggests a viral upper respiratory infection, but monitoring is required as symptoms could evolve.",
+      "description": "A viral upper respiratory infection is a common viral infection that affects the nose, throat, and airways.",
+      "diagnosis_title": "Viral Upper Respiratory Infection",
+      "confidence_threshold": 85.0,
+      "icd_code": "J06.9"
+    },
+    "lab_tests": [
+      "None typically required"
+    ],
+    "red_flags": [
+      "Persistent high fever",
+      "Worsening symptoms"
+    ],
+    "precautions": [
+      "Avoid crowded places"
+    ],
+    "otc_medication": [
+      "Ibuprofen for pain"
+    ]
+  },
+  {
+    "id": 1005,
+    "q_id": 1005,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Asthma Exacerbation",
+    "options": [],
+    "advice": [
+      "Use prescribed inhaler",
+      "Monitor breathing regularly"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on thorough 5-question evaluation: persistent cough + sore throat + no fever + dry cough + no chest pain. This pattern suggests an asthma exacerbation, especially if there is a history of asthma or allergies.",
+      "description": "Asthma exacerbation is a worsening of asthma symptoms, often triggered by allergens or respiratory infections.",
+      "diagnosis_title": "Asthma Exacerbation",
+      "confidence_threshold": 90.0,
+      "icd_code": "J45.901"
+    },
+    "lab_tests": [
+      "Peak flow measurement"
+    ],
+    "red_flags": [
+      "Severe breathing difficulty",
+      "Cyanosis"
+    ],
+    "precautions": [
+      "Avoid known allergens"
+    ],
+    "otc_medication": [
+      "Antihistamines"
+    ]
+  },
+  {
+    "id": 14,
+    "q_id": 14,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the teenager have a persistent cough?",
+    "options": [
+      {
+        "next_q_id": 15,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 15,
+        "childQuestion": 15,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 29,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 29,
+        "childQuestion": 29,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 15,
+    "q_id": 15,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough accompanied by shortness of breath?",
+    "options": [
+      {
+        "next_q_id": 16,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 16,
+        "childQuestion": 16,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 18,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 18,
+        "childQuestion": 18,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 16,
+    "q_id": 16,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the teenager have chest pain while coughing?",
+    "options": [
+      {
+        "next_q_id": 17,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 17,
+        "childQuestion": 17,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 19,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 19,
+        "childQuestion": 19,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 17,
+    "q_id": 17,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the male teenager experience wheezing while coughing?",
+    "options": [
+      {
+        "next_q_id": 1006,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1006,
+        "childQuestion": 1006,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 20,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 20,
+        "childQuestion": 20,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1006,
+    "q_id": 1006,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Acute Severe Asthma Exacerbation",
+    "options": [],
+    "advice": [
+      "Seek immediate medical attention",
+      "Use prescribed inhaler"
+    ],
+    "diagnosis": {
+      "reasoning": "Very high confidence (95%) based on comprehensive 5-question assessment: persistent cough + shortness of breath + chest pain + wheezing. This complete symptom constellation strongly indicates acute severe asthma exacerbation requiring immediate intervention.",
+      "description": "A sudden worsening of asthma symptoms due to the tightening of muscles around the airways (bronchospasm).",
+      "diagnosis_title": "Acute Severe Asthma Exacerbation",
+      "confidence_threshold": 95.0,
+      "icd_code": "J45.901"
+    },
+    "lab_tests": [
+      "Spirometry",
+      "Peak flow measurement"
+    ],
+    "red_flags": [
+      "Severe shortness of breath",
+      "Inability to speak full sentences"
+    ],
+    "precautions": [
+      "Avoid known triggers"
+    ],
+    "otc_medication": [
+      "Salbutamol inhaler"
+    ]
+  },
+  {
+    "id": 18,
+    "q_id": 18,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the cough produce mucus or phlegm?",
+    "options": [
+      {
+        "next_q_id": 19,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 19,
+        "childQuestion": 19,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 21,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 21,
+        "childQuestion": 21,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 19,
+    "q_id": 19,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough triggered by exercise or cold air?",
+    "options": [
+      {
+        "next_q_id": 1007,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1007,
+        "childQuestion": 1007,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 22,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 22,
+        "childQuestion": 22,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1007,
+    "q_id": 1007,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Exercise-Induced Bronchoconstriction",
+    "options": [],
+    "advice": [
+      "Warm up before exercise",
+      "Use inhaler before physical activity"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on thorough 5-question evaluation: persistent cough + no mucus production + exercise-induced symptoms. This pattern suggests exercise-induced bronchoconstriction.",
+      "description": "A temporary narrowing of the airways during or after exercise, leading to difficulty breathing.",
+      "diagnosis_title": "Exercise-Induced Bronchoconstriction",
+      "confidence_threshold": 90.0,
+      "icd_code": "J45.990"
+    },
+    "lab_tests": [
+      "Exercise challenge test"
+    ],
+    "red_flags": [
+      "Severe breathing difficulty during exercise"
+    ],
+    "precautions": [
+      "Avoid cold air during exercise"
+    ],
+    "otc_medication": [
+      "Salbutamol inhaler"
+    ]
+  },
+  {
+    "id": 20,
+    "q_id": 20,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the teenager have a history of asthma or bronchitis?",
+    "options": [
+      {
+        "next_q_id": 1008,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1008,
+        "childQuestion": 1008,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 21,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 21,
+        "childQuestion": 21,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1008,
+    "q_id": 1008,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Chronic Bronchitis",
+    "options": [],
+    "advice": [
+      "Avoid smoking",
+      "Stay hydrated"
+    ],
+    "diagnosis": {
+      "reasoning": "Good confidence (85%) based on comprehensive 5-question assessment: persistent cough + history of bronchitis + mucus production. This symptom pattern is indicative of chronic bronchitis.",
+      "description": "A long-term inflammation of the bronchi, leading to cough and mucus production.",
+      "diagnosis_title": "Chronic Bronchitis",
+      "confidence_threshold": 85.0,
+      "icd_code": "J41.0"
+    },
+    "lab_tests": [
+      "Chest X-ray",
+      "Pulmonary function test"
+    ],
+    "red_flags": [
+      "Increased mucus production",
+      "Frequent respiratory infections"
+    ],
+    "precautions": [
+      "Avoid pollutants"
+    ],
+    "otc_medication": [
+      "Expectorants"
+    ]
+  },
+  {
+    "id": 21,
+    "q_id": 21,
+    "q_tag": "AI_GENERATED",
+    "question": "Has the teenager been exposed to allergens recently?",
+    "options": [
+      {
+        "next_q_id": 1009,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1009,
+        "childQuestion": 1009,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 22,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 22,
+        "childQuestion": 22,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1009,
+    "q_id": 1009,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Allergic Rhinitis",
+    "options": [],
+    "advice": [
+      "Avoid allergens",
+      "Use antihistamines"
+    ],
+    "diagnosis": {
+      "reasoning": "Reasonable confidence (85%) based on comprehensive 5-question assessment: persistent cough + recent allergen exposure + no mucus production. This symptom pattern suggests allergic rhinitis.",
+      "description": "An allergic reaction causing sneezing, congestion, and cough due to exposure to allergens.",
+      "diagnosis_title": "Allergic Rhinitis",
+      "confidence_threshold": 85.0,
+      "icd_code": "J30.9"
+    },
+    "lab_tests": [
+      "Allergy testing"
+    ],
+    "red_flags": [
+      "Severe allergic reactions"
+    ],
+    "precautions": [
+      "Use air purifiers"
+    ],
+    "otc_medication": [
+      "Antihistamines"
+    ]
+  },
+  {
+    "id": 22,
+    "q_id": 22,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the male teenager have a hoarse voice with the cough?",
+    "options": [
+      {
+        "next_q_id": 1010,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1010,
+        "childQuestion": 1010,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 23,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 23,
+        "childQuestion": 23,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1010,
+    "q_id": 1010,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Laryngitis",
+    "options": [],
+    "advice": [
+      "Rest voice",
+      "Stay hydrated"
+    ],
+    "diagnosis": {
+      "reasoning": "Moderate confidence (80%) based on thorough 5-question evaluation: persistent cough + hoarse voice + no recent allergen exposure. This symptom pattern suggests laryngitis.",
+      "description": "Inflammation of the larynx, often causing hoarseness and cough.",
+      "diagnosis_title": "Laryngitis",
+      "confidence_threshold": 80.0,
+      "icd_code": "J04.0"
+    },
+    "lab_tests": [
+      "Laryngoscopy"
+    ],
+    "red_flags": [
+      "Severe throat pain"
+    ],
+    "precautions": [
+      "Avoid whispering"
+    ],
+    "otc_medication": [
+      "Throat lozenges"
+    ]
+  },
+  {
+    "id": 23,
+    "q_id": 23,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the male teenager have a family history of respiratory illnesses?",
+    "options": [
+      {
+        "next_q_id": 1011,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1011,
+        "childQuestion": 1011,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 1012,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 1012,
+        "childQuestion": 1012,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1011,
+    "q_id": 1011,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Genetic Predisposition to Respiratory Conditions",
+    "options": [],
+    "advice": [
+      "Regular check-ups",
+      "Avoid smoking"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on comprehensive 5-question assessment: persistent cough + family history of respiratory illnesses. This pattern suggests a genetic predisposition to respiratory conditions.",
+      "description": "A genetic tendency to develop respiratory conditions due to family history.",
+      "diagnosis_title": "Genetic Predisposition to Respiratory Conditions",
+      "confidence_threshold": 90.0,
+      "icd_code": "Z82.5"
+    },
+    "lab_tests": [
+      "Genetic testing"
+    ],
+    "red_flags": [
+      "Early onset of symptoms"
+    ],
+    "precautions": [
+      "Avoid known triggers"
+    ],
+    "otc_medication": [
+      "None"
+    ]
+  },
+  {
+    "id": 1012,
+    "q_id": 1012,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Viral Upper Respiratory Infection",
+    "options": [],
+    "advice": [
+      "Rest",
+      "Stay hydrated"
+    ],
+    "diagnosis": {
+      "reasoning": "Reasonable confidence (85%) based on comprehensive 5-question assessment: persistent cough + no family history of respiratory illnesses. This symptom pattern suggests a viral upper respiratory infection.",
+      "description": "A viral infection affecting the upper respiratory tract, causing cough and congestion.",
+      "diagnosis_title": "Viral Upper Respiratory Infection",
+      "confidence_threshold": 85.0,
+      "icd_code": "J06.9"
+    },
+    "lab_tests": [
+      "None"
+    ],
+    "red_flags": [
+      "Prolonged symptoms"
+    ],
+    "precautions": [
+      "Avoid contact with sick individuals"
+    ],
+    "otc_medication": [
+      "Decongestants"
+    ]
+  },
+  {
+    "id": 24,
+    "q_id": 24,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the teenager have a persistent cough?",
+    "options": [
+      {
+        "next_q_id": 25,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 25,
+        "childQuestion": 25,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 29,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 29,
+        "childQuestion": 29,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 25,
+    "q_id": 25,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough accompanied by shortness of breath?",
+    "options": [
+      {
+        "next_q_id": 26,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 26,
+        "childQuestion": 26,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 29,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 29,
+        "childQuestion": 29,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 26,
+    "q_id": 26,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the teenager have chest pain while coughing?",
+    "options": [
+      {
+        "next_q_id": 27,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 27,
+        "childQuestion": 27,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 33,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 33,
+        "childQuestion": 33,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 27,
+    "q_id": 27,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the cough produce mucus or phlegm?",
+    "options": [
+      {
+        "next_q_id": 28,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 28,
+        "childQuestion": 28,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 31,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 31,
+        "childQuestion": 31,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 28,
+    "q_id": 28,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the teenager have a history of asthma or bronchitis?",
+    "options": [
+      {
+        "next_q_id": 1013,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1013,
+        "childQuestion": 1013,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 1014,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 1014,
+        "childQuestion": 1014,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1013,
+    "q_id": 1013,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Asthma Exacerbation",
+    "options": [],
+    "advice": [
+      "Use prescribed inhaler",
+      "Avoid allergens"
+    ],
+    "diagnosis": {
+      "reasoning": "Very high confidence (95%) based on comprehensive 5-question assessment: persistent cough + shortness of breath + chest pain + mucus production + history of asthma. This symptom constellation strongly indicates an asthma exacerbation.",
+      "description": "An acute worsening of asthma symptoms, often triggered by allergens or respiratory infections.",
+      "diagnosis_title": "Asthma Exacerbation",
+      "confidence_threshold": 95.0,
+      "icd_code": "J45.901"
+    },
+    "lab_tests": [
+      "Spirometry"
+    ],
+    "red_flags": [
+      "Severe shortness of breath",
+      "Inability to speak full sentences"
+    ],
+    "precautions": [
+      "Avoid known triggers"
+    ],
+    "otc_medication": [
+      "Salbutamol inhaler"
+    ]
+  },
+  {
+    "id": 1014,
+    "q_id": 1014,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Acute Bronchitis",
+    "options": [],
+    "advice": [
+      "Stay hydrated",
+      "Rest"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on thorough 5-question evaluation: persistent cough + shortness of breath + chest pain + mucus production + no history of asthma. This pattern suggests acute bronchitis, likely viral in origin.",
+      "description": "Inflammation of the bronchial tubes, often following a cold or respiratory infection.",
+      "diagnosis_title": "Acute Bronchitis",
+      "confidence_threshold": 90.0,
+      "icd_code": "J20.9"
+    },
+    "lab_tests": [
+      "Chest X-ray"
+    ],
+    "red_flags": [
+      "High fever",
+      "Persistent cough over 3 weeks"
+    ],
+    "precautions": [
+      "Avoid smoking"
+    ],
+    "otc_medication": [
+      "Cough syrup"
+    ]
+  },
+  {
+    "id": 29,
+    "q_id": 29,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the female teenager have a persistent dry cough?",
+    "options": [
+      {
+        "next_q_id": 30,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 30,
+        "childQuestion": 30,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 32,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 32,
+        "childQuestion": 32,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 30,
+    "q_id": 30,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the female teenager experience fatigue along with the cough?",
+    "options": [
+      {
+        "next_q_id": 31,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 31,
+        "childQuestion": 31,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 31,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 31,
+        "childQuestion": 31,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 31,
+    "q_id": 31,
+    "q_tag": "AI_GENERATED",
+    "question": "Has the teenager been exposed to allergens recently?",
+    "options": [
+      {
+        "next_q_id": 1015,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1015,
+        "childQuestion": 1015,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 1016,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 1016,
+        "childQuestion": 1016,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1015,
+    "q_id": 1015,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Allergic Rhinitis",
+    "options": [],
+    "advice": [
+      "Avoid allergens",
+      "Use antihistamines"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on thorough 5-question evaluation: persistent dry cough + fatigue + recent allergen exposure. This pattern suggests allergic rhinitis.",
+      "description": "An allergic reaction causing sneezing, runny nose, and cough, often due to pollen or dust.",
+      "diagnosis_title": "Allergic Rhinitis",
+      "confidence_threshold": 90.0,
+      "icd_code": "J30.9"
+    },
+    "lab_tests": [
+      "Allergy testing"
+    ],
+    "red_flags": [
+      "Severe allergic reactions"
+    ],
+    "precautions": [
+      "Use air purifiers"
+    ],
+    "otc_medication": [
+      "Antihistamines"
+    ]
+  },
+  {
+    "id": 1016,
+    "q_id": 1016,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Viral Upper Respiratory Infection",
+    "options": [],
+    "advice": [
+      "Rest",
+      "Stay hydrated"
+    ],
+    "diagnosis": {
+      "reasoning": "Reasonable confidence (85%) based on comprehensive 5-question assessment: persistent dry cough + fatigue + no recent allergen exposure. This pattern suggests a viral upper respiratory infection.",
+      "description": "A viral infection affecting the upper respiratory tract, often causing cough and fatigue.",
+      "diagnosis_title": "Viral Upper Respiratory Infection",
+      "confidence_threshold": 85.0,
+      "icd_code": "J06.9"
+    },
+    "lab_tests": [
+      "None typically required"
+    ],
+    "red_flags": [
+      "High fever",
+      "Worsening symptoms"
+    ],
+    "precautions": [
+      "Avoid contact with others"
+    ],
+    "otc_medication": [
+      "Cough suppressants"
+    ]
+  },
+  {
+    "id": 32,
+    "q_id": 32,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the female teenager have a history of allergies?",
+    "options": [
+      {
+        "next_q_id": 1015,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1015,
+        "childQuestion": 1015,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 1016,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 1016,
+        "childQuestion": 1016,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 33,
+    "q_id": 33,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the adult have a persistent cough lasting more than 3 weeks?",
+    "options": [
+      {
+        "next_q_id": 34,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 34,
+        "childQuestion": 34,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 44,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 44,
+        "childQuestion": 44,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 34,
+    "q_id": 34,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough accompanied by blood in the mucus?",
+    "options": [
+      {
+        "next_q_id": 35,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 35,
+        "childQuestion": 35,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 36,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 36,
+        "childQuestion": 36,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 35,
+    "q_id": 35,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the adult experience shortness of breath with the cough?",
+    "options": [
+      {
+        "next_q_id": 1017,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1017,
+        "childQuestion": 1017,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 46,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 46,
+        "childQuestion": 46,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 36,
+    "q_id": 36,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough worse after lying down?",
+    "options": [
+      {
+        "next_q_id": 37,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 37,
+        "childQuestion": 37,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 49,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 49,
+        "childQuestion": 49,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 37,
+    "q_id": 37,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough triggered by cold air or exercise?",
+    "options": [
+      {
+        "next_q_id": 1018,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1018,
+        "childQuestion": 1018,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 50,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 50,
+        "childQuestion": 50,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1017,
+    "q_id": 1017,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Pulmonary Embolism",
+    "options": [],
+    "advice": [
+      "Seek immediate medical attention",
+      "Avoid physical exertion"
+    ],
+    "diagnosis": {
+      "reasoning": "Very high confidence (95%) based on comprehensive 5-question assessment: persistent cough with blood in mucus, shortness of breath, and history of smoking. This symptom constellation strongly indicates a pulmonary embolism.",
+      "description": "A blockage in one of the pulmonary arteries in the lungs, usually due to blood clots that travel to the lungs from the legs.",
+      "diagnosis_title": "Pulmonary Embolism",
+      "confidence_threshold": 95.0,
+      "icd_code": "I26.9"
+    },
+    "lab_tests": [
+      "D-dimer test",
+      "CT pulmonary angiography"
+    ],
+    "red_flags": [
+      "Sudden shortness of breath",
+      "Chest pain"
+    ],
+    "precautions": [
+      "Avoid physical exertion"
+    ],
+    "otc_medication": []
+  },
+  {
+    "id": 1018,
+    "q_id": 1018,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Asthma",
+    "options": [],
+    "advice": [
+      "Use prescribed inhalers",
+      "Avoid known triggers"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on thorough 5-question evaluation: cough triggered by cold air or exercise, history of asthma, and wheezing. This pattern suggests asthma exacerbation.",
+      "description": "A condition in which your airways narrow and swell and may produce extra mucus, leading to difficulty in breathing.",
+      "diagnosis_title": "Asthma",
+      "confidence_threshold": 90.0,
+      "icd_code": "J45.909"
+    },
+    "lab_tests": [
+      "Spirometry",
+      "Peak flow measurement"
+    ],
+    "red_flags": [
+      "Severe wheezing",
+      "Difficulty breathing"
+    ],
+    "precautions": [
+      "Avoid allergens",
+      "Use inhalers as prescribed"
+    ],
+    "otc_medication": [
+      "Over-the-counter antihistamines"
+    ]
+  },
+  {
+    "id": 38,
+    "q_id": 38,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough accompanied by blood in the mucus?",
+    "options": [
+      {
+        "next_q_id": 39,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 39,
+        "childQuestion": 39,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 42,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 42,
+        "childQuestion": 42,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 39,
+    "q_id": 39,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the adult experience shortness of breath with the cough?",
+    "options": [
+      {
+        "next_q_id": 40,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 40,
+        "childQuestion": 40,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 42,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 42,
+        "childQuestion": 42,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 40,
+    "q_id": 40,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the adult have a fever along with the cough?",
+    "options": [
+      {
+        "next_q_id": 41,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 41,
+        "childQuestion": 41,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 42,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 42,
+        "childQuestion": 42,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 41,
+    "q_id": 41,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough worse after lying down?",
+    "options": [
+      {
+        "next_q_id": 1019,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1019,
+        "childQuestion": 1019,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 42,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 42,
+        "childQuestion": 42,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 42,
+    "q_id": 42,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the adult have a history of smoking?",
+    "options": [
+      {
+        "next_q_id": 1020,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1020,
+        "childQuestion": 1020,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 1021,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 1021,
+        "childQuestion": 1021,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1019,
+    "q_id": 1019,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Gastroesophageal Reflux Disease (GERD)",
+    "options": [],
+    "advice": [
+      "Avoid lying down immediately after meals",
+      "Elevate the head of the bed"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (95%) based on comprehensive 5-question assessment: persistent cough worse after lying down, fever, and shortness of breath. These symptoms strongly suggest GERD as the underlying cause.",
+      "description": "GERD is a chronic digestive disorder where stomach acid or bile irritates the food pipe lining.",
+      "diagnosis_title": "Gastroesophageal Reflux Disease (GERD)",
+      "confidence_threshold": 95.0,
+      "icd_code": "K21.9"
+    },
+    "lab_tests": [
+      "Endoscopy",
+      "pH monitoring"
+    ],
+    "red_flags": [
+      "Severe chest pain",
+      "Difficulty swallowing"
+    ],
+    "precautions": [
+      "Avoid trigger foods",
+      "Maintain a healthy weight"
+    ],
+    "otc_medication": [
+      "Antacids"
+    ]
+  },
+  {
+    "id": 1020,
+    "q_id": 1020,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Chronic Obstructive Pulmonary Disease (COPD)",
+    "options": [],
+    "advice": [
+      "Quit smoking",
+      "Regular exercise"
+    ],
+    "diagnosis": {
+      "reasoning": "Very high confidence (95%) based on comprehensive 5-question assessment: persistent cough, history of smoking, and shortness of breath. These symptoms are classic indicators of COPD.",
+      "description": "COPD is a chronic inflammatory lung disease that causes obstructed airflow from the lungs.",
+      "diagnosis_title": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "confidence_threshold": 95.0,
+      "icd_code": "J44.9"
+    },
+    "lab_tests": [
+      "Spirometry",
+      "Chest X-ray"
+    ],
+    "red_flags": [
+      "Increased breathlessness",
+      "Frequent respiratory infections"
+    ],
+    "precautions": [
+      "Avoid lung irritants",
+      "Get vaccinated against flu"
+    ],
+    "otc_medication": [
+      "Bronchodilators"
+    ]
+  },
+  {
+    "id": 1021,
+    "q_id": 1021,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Asthma",
+    "options": [],
+    "advice": [
+      "Use inhalers as prescribed",
+      "Avoid known triggers"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on comprehensive 5-question assessment: persistent cough, no history of smoking, and shortness of breath. These symptoms align with asthma, especially in the absence of smoking history.",
+      "description": "Asthma is a condition in which your airways narrow and swell and may produce extra mucus.",
+      "diagnosis_title": "Asthma",
+      "confidence_threshold": 90.0,
+      "icd_code": "J45.909"
+    },
+    "lab_tests": [
+      "Pulmonary function test",
+      "Allergy testing"
+    ],
+    "red_flags": [
+      "Severe asthma attacks",
+      "Frequent use of rescue inhaler"
+    ],
+    "precautions": [
+      "Monitor peak flow",
+      "Create an asthma action plan"
+    ],
+    "otc_medication": [
+      "Inhaled corticosteroids"
+    ]
+  },
+  {
+    "id": 43,
+    "q_id": 43,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the middle-aged adult have a persistent cough lasting more than 3 weeks?",
+    "options": [
+      {
+        "next_q_id": 44,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 44,
+        "childQuestion": 44,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 47,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 47,
+        "childQuestion": 47,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 44,
+    "q_id": 44,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough accompanied by blood in the mucus?",
+    "options": [
+      {
+        "next_q_id": 45,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 45,
+        "childQuestion": 45,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 46,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 46,
+        "childQuestion": 46,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 45,
+    "q_id": 45,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the middle-aged adult experience shortness of breath with the cough?",
+    "options": [
+      {
+        "next_q_id": 1022,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1022,
+        "childQuestion": 1022,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 53,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 53,
+        "childQuestion": 53,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 46,
+    "q_id": 46,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the middle-aged adult have a fever along with the cough?",
+    "options": [
+      {
+        "next_q_id": 48,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 48,
+        "childQuestion": 48,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 49,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 49,
+        "childQuestion": 49,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 47,
+    "q_id": 47,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough worse after lying down?",
+    "options": [
+      {
+        "next_q_id": 51,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 51,
+        "childQuestion": 51,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 50,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 50,
+        "childQuestion": 50,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 48,
+    "q_id": 48,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the middle-aged adult have a history of smoking?",
+    "options": [
+      {
+        "next_q_id": 1023,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1023,
+        "childQuestion": 1023,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 52,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 52,
+        "childQuestion": 52,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 49,
+    "q_id": 49,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough triggered by cold air or exercise?",
+    "options": [
+      {
+        "next_q_id": 1024,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1024,
+        "childQuestion": 1024,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 54,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 54,
+        "childQuestion": 54,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 50,
+    "q_id": 50,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the middle-aged adult have a history of asthma or chronic bronchitis?",
+    "options": [
+      {
+        "next_q_id": 1025,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1025,
+        "childQuestion": 1025,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 51,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 51,
+        "childQuestion": 51,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 51,
+    "q_id": 51,
+    "q_tag": "AI_GENERATED",
+    "question": "Has the middle-aged adult been exposed to allergens recently?",
+    "options": [
+      {
+        "next_q_id": 1026,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1026,
+        "childQuestion": 1026,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 52,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 52,
+        "childQuestion": 52,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 52,
+    "q_id": 52,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the male middle-aged adult have a hoarse voice with the cough?",
+    "options": [
+      {
+        "next_q_id": 1027,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1027,
+        "childQuestion": 1027,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 54,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 54,
+        "childQuestion": 54,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 53,
+    "q_id": 53,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the male middle-aged adult experience wheezing while coughing?",
+    "options": [
+      {
+        "next_q_id": 1028,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1028,
+        "childQuestion": 1028,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 54,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 54,
+        "childQuestion": 54,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 54,
+    "q_id": 54,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the male middle-aged adult have a family history of respiratory illnesses?",
+    "options": [
+      {
+        "next_q_id": 1029,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1029,
+        "childQuestion": 1029,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 1030,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 1030,
+        "childQuestion": 1030,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1022,
+    "q_id": 1022,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Pulmonary Embolism",
+    "options": [],
+    "advice": [
+      "Seek immediate medical attention",
+      "Avoid physical exertion"
+    ],
+    "diagnosis": {
+      "reasoning": "Very high confidence (95%) based on comprehensive 5-question assessment: persistent cough, blood in mucus, shortness of breath, and wheezing strongly indicate a pulmonary embolism.",
+      "description": "A blockage in one of the pulmonary arteries in the lungs, usually due to blood clots that travel to the lungs from the legs or other parts of the body (deep vein thrombosis).",
+      "diagnosis_title": "Pulmonary Embolism",
+      "confidence_threshold": 95.0,
+      "icd_code": "I26.9"
+    },
+    "lab_tests": [
+      "D-dimer test",
+      "CT pulmonary angiography"
+    ],
+    "red_flags": [
+      "Sudden shortness of breath",
+      "Chest pain"
+    ],
+    "precautions": [
+      "Avoid physical exertion"
+    ],
+    "otc_medication": null
+  },
+  {
+    "id": 1023,
+    "q_id": 1023,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Chronic Obstructive Pulmonary Disease (COPD)",
+    "options": [],
+    "advice": [
+      "Quit smoking",
+      "Use prescribed inhalers"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on 5-question assessment: persistent cough, history of smoking, and shortness of breath suggest COPD.",
+      "description": "A chronic inflammatory lung disease that causes obstructed airflow from the lungs. Symptoms include breathing difficulty, cough, mucus (sputum) production, and wheezing.",
+      "diagnosis_title": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "confidence_threshold": 90.0,
+      "icd_code": "J44.9"
+    },
+    "lab_tests": [
+      "Spirometry",
+      "Chest X-ray"
+    ],
+    "red_flags": [
+      "Increased breathlessness",
+      "Frequent respiratory infections"
+    ],
+    "precautions": [
+      "Avoid smoking",
+      "Use air purifiers"
+    ],
+    "otc_medication": [
+      "Bronchodilators"
+    ]
+  },
+  {
+    "id": 1024,
+    "q_id": 1024,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Exercise-Induced Bronchoconstriction",
+    "options": [],
+    "advice": [
+      "Warm up before exercise",
+      "Use prescribed inhalers"
+    ],
+    "diagnosis": {
+      "reasoning": "Good confidence (85%) based on 5-question assessment: cough triggered by exercise and cold air, with no other significant symptoms, suggests exercise-induced bronchoconstriction.",
+      "description": "A temporary narrowing of the airways that occurs after exercise, leading to shortness of breath, wheezing, and coughing.",
+      "diagnosis_title": "Exercise-Induced Bronchoconstriction",
+      "confidence_threshold": 85.0,
+      "icd_code": "J45.990"
+    },
+    "lab_tests": [
+      "Exercise challenge test",
+      "Spirometry"
+    ],
+    "red_flags": [
+      "Severe wheezing",
+      "Difficulty breathing"
+    ],
+    "precautions": [
+      "Avoid exercising in cold air"
+    ],
+    "otc_medication": [
+      "Inhaled bronchodilators"
+    ]
+  },
+  {
+    "id": 1025,
+    "q_id": 1025,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Asthma",
+    "options": [],
+    "advice": [
+      "Avoid known triggers",
+      "Use prescribed inhalers"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on 5-question assessment: history of asthma, wheezing, and cough suggest asthma exacerbation.",
+      "description": "A condition in which your airways narrow and swell and may produce extra mucus. This can make breathing difficult and trigger coughing, wheezing, and shortness of breath.",
+      "diagnosis_title": "Asthma",
+      "confidence_threshold": 90.0,
+      "icd_code": "J45.909"
+    },
+    "lab_tests": [
+      "Spirometry",
+      "Allergy testing"
+    ],
+    "red_flags": [
+      "Severe wheezing",
+      "Difficulty breathing"
+    ],
+    "precautions": [
+      "Avoid allergens",
+      "Use air purifiers"
+    ],
+    "otc_medication": [
+      "Inhaled corticosteroids"
+    ]
+  },
+  {
+    "id": 1026,
+    "q_id": 1026,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Allergic Rhinitis",
+    "options": [],
+    "advice": [
+      "Avoid allergens",
+      "Use antihistamines"
+    ],
+    "diagnosis": {
+      "reasoning": "Moderate confidence (80%) based on 5-question assessment: recent allergen exposure and persistent cough suggest allergic rhinitis.",
+      "description": "An allergic reaction that causes sneezing, congestion, runny nose, and sinus pressure.",
+      "diagnosis_title": "Allergic Rhinitis",
+      "confidence_threshold": 80.0,
+      "icd_code": "J30.9"
+    },
+    "lab_tests": [
+      "Allergy testing",
+      "Nasal endoscopy"
+    ],
+    "red_flags": [
+      "Severe nasal congestion",
+      "Difficulty breathing"
+    ],
+    "precautions": [
+      "Avoid known allergens"
+    ],
+    "otc_medication": [
+      "Antihistamines"
+    ]
+  },
+  {
+    "id": 1027,
+    "q_id": 1027,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Laryngitis",
+    "options": [],
+    "advice": [
+      "Rest your voice",
+      "Stay hydrated"
+    ],
+    "diagnosis": {
+      "reasoning": "Reasonable confidence (85%) based on 5-question assessment: hoarse voice and persistent cough suggest laryngitis.",
+      "description": "An inflammation of your voice box (larynx) from overuse, irritation, or infection.",
+      "diagnosis_title": "Laryngitis",
+      "confidence_threshold": 85.0,
+      "icd_code": "J04.0"
+    },
+    "lab_tests": [
+      "Laryngoscopy",
+      "Throat culture"
+    ],
+    "red_flags": [
+      "Severe throat pain",
+      "Difficulty swallowing"
+    ],
+    "precautions": [
+      "Avoid whispering",
+      "Stay hydrated"
+    ],
+    "otc_medication": [
+      "Throat lozenges"
+    ]
+  },
+  {
+    "id": 1028,
+    "q_id": 1028,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Asthma Exacerbation",
+    "options": [],
+    "advice": [
+      "Use rescue inhaler",
+      "Seek medical attention if symptoms worsen"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on 5-question assessment: wheezing, shortness of breath, and cough suggest asthma exacerbation.",
+      "description": "A worsening of asthma symptoms, which can include increased shortness of breath, wheezing, and coughing.",
+      "diagnosis_title": "Asthma Exacerbation",
+      "confidence_threshold": 90.0,
+      "icd_code": "J45.901"
+    },
+    "lab_tests": [
+      "Peak flow measurement",
+      "Spirometry"
+    ],
+    "red_flags": [
+      "Severe wheezing",
+      "Difficulty breathing"
+    ],
+    "precautions": [
+      "Avoid known triggers"
+    ],
+    "otc_medication": [
+      "Inhaled bronchodilators"
+    ]
+  },
+  {
+    "id": 1029,
+    "q_id": 1029,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Familial Respiratory Disorder",
+    "options": [],
+    "advice": [
+      "Regular check-ups",
+      "Avoid smoking"
+    ],
+    "diagnosis": {
+      "reasoning": "Moderate confidence (80%) based on 5-question assessment: family history of respiratory illnesses and persistent cough suggest a familial respiratory disorder.",
+      "description": "A respiratory condition that may be influenced by genetic factors, leading to symptoms such as cough and shortness of breath.",
+      "diagnosis_title": "Familial Respiratory Disorder",
+      "confidence_threshold": 80.0,
+      "icd_code": "Z82.5"
+    },
+    "lab_tests": [
+      "Genetic testing",
+      "Pulmonary function tests"
+    ],
+    "red_flags": [
+      "Increased breathlessness",
+      "Frequent respiratory infections"
+    ],
+    "precautions": [
+      "Avoid smoking",
+      "Use air purifiers"
+    ],
+    "otc_medication": null
+  },
+  {
+    "id": 1030,
+    "q_id": 1030,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Viral Upper Respiratory Infection",
+    "options": [],
+    "advice": [
+      "Rest",
+      "Stay hydrated"
+    ],
+    "diagnosis": {
+      "reasoning": "Reasonable confidence (85%) based on 5-question assessment: no significant family history, mild symptoms, and gradual onset suggest a viral upper respiratory infection.",
+      "description": "An infection that affects the upper part of the respiratory system, including the nose, throat, and airways.",
+      "diagnosis_title": "Viral Upper Respiratory Infection",
+      "confidence_threshold": 85.0,
+      "icd_code": "J06.9"
+    },
+    "lab_tests": [
+      "Throat swab",
+      "Complete blood count"
+    ],
+    "red_flags": [
+      "Persistent fever",
+      "Severe sore throat"
+    ],
+    "precautions": [
+      "Avoid close contact with others"
+    ],
+    "otc_medication": [
+      "Decongestants"
+    ]
+  },
+  {
+    "id": 55,
+    "q_id": 55,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the middle-aged adult have a persistent cough lasting more than 3 weeks?",
+    "options": [
+      {
+        "next_q_id": 56,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 56,
+        "childQuestion": 56,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 59,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 59,
+        "childQuestion": 59,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 56,
+    "q_id": 56,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough accompanied by blood in the mucus?",
+    "options": [
+      {
+        "next_q_id": 57,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 57,
+        "childQuestion": 57,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 58,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 58,
+        "childQuestion": 58,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 57,
+    "q_id": 57,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the middle-aged adult experience shortness of breath with the cough?",
+    "options": [
+      {
+        "next_q_id": 1031,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1031,
+        "childQuestion": 1031,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 58,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 58,
+        "childQuestion": 58,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 58,
+    "q_id": 58,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough worse after lying down?",
+    "options": [
+      {
+        "next_q_id": 59,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 59,
+        "childQuestion": 59,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 60,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 60,
+        "childQuestion": 60,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 59,
+    "q_id": 59,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough triggered by cold air or exercise?",
+    "options": [
+      {
+        "next_q_id": 1032,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1032,
+        "childQuestion": 1032,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 60,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 60,
+        "childQuestion": 60,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 60,
+    "q_id": 60,
+    "q_tag": "AI_GENERATED",
+    "question": "Has the middle-aged adult been exposed to allergens recently?",
+    "options": [
+      {
+        "next_q_id": 1033,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1033,
+        "childQuestion": 1033,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 1034,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 1034,
+        "childQuestion": 1034,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1031,
+    "q_id": 1031,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Pulmonary Embolism",
+    "options": [],
+    "advice": [
+      "Seek immediate medical attention",
+      "Avoid physical exertion"
+    ],
+    "diagnosis": {
+      "reasoning": "Very high confidence (95%) based on comprehensive 5-question assessment: persistent cough with blood in mucus, shortness of breath, and worsening symptoms when lying down. This symptom constellation strongly indicates a pulmonary embolism.",
+      "description": "A blockage in one of the pulmonary arteries in the lungs, usually due to blood clots that travel to the lungs from the legs.",
+      "diagnosis_title": "Pulmonary Embolism",
+      "confidence_threshold": 95.0,
+      "icd_code": "I26.9"
+    },
+    "lab_tests": [
+      "D-dimer test",
+      "CT pulmonary angiography"
+    ],
+    "red_flags": [
+      "Sudden shortness of breath",
+      "Chest pain"
+    ],
+    "precautions": [
+      "Avoid long periods of inactivity"
+    ],
+    "otc_medication": []
+  },
+  {
+    "id": 1032,
+    "q_id": 1032,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Exercise-Induced Bronchoconstriction",
+    "options": [],
+    "advice": [
+      "Use a bronchodilator before exercise",
+      "Warm up before physical activity"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on thorough 5-question evaluation: cough triggered by exercise or cold air, persistent symptoms, and no blood in mucus. This pattern suggests exercise-induced bronchoconstriction.",
+      "description": "A temporary narrowing of the airways during or after exercise, leading to difficulty breathing.",
+      "diagnosis_title": "Exercise-Induced Bronchoconstriction",
+      "confidence_threshold": 90.0,
+      "icd_code": "J45.990"
+    },
+    "lab_tests": [
+      "Spirometry",
+      "Exercise challenge test"
+    ],
+    "red_flags": [
+      "Severe breathing difficulty during exercise"
+    ],
+    "precautions": [
+      "Avoid known triggers"
+    ],
+    "otc_medication": [
+      "Inhaled bronchodilators"
+    ]
+  },
+  {
+    "id": 1033,
+    "q_id": 1033,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Allergic Rhinitis",
+    "options": [],
+    "advice": [
+      "Avoid allergens",
+      "Use antihistamines"
+    ],
+    "diagnosis": {
+      "reasoning": "Good confidence (85%) based on comprehensive 5-question assessment: recent allergen exposure, persistent cough, and no severe symptoms. This suggests allergic rhinitis as the primary cause.",
+      "description": "An allergic reaction that causes sneezing, congestion, and a runny nose due to exposure to allergens.",
+      "diagnosis_title": "Allergic Rhinitis",
+      "confidence_threshold": 85.0,
+      "icd_code": "J30.9"
+    },
+    "lab_tests": [
+      "Allergy skin test",
+      "Blood test for IgE"
+    ],
+    "red_flags": [
+      "Severe allergic reactions"
+    ],
+    "precautions": [
+      "Keep windows closed during high pollen seasons"
+    ],
+    "otc_medication": [
+      "Antihistamines",
+      "Nasal corticosteroids"
+    ]
+  },
+  {
+    "id": 1034,
+    "q_id": 1034,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Chronic Cough of Unknown Etiology",
+    "options": [],
+    "advice": [
+      "Monitor symptoms",
+      "Consult a specialist if symptoms persist"
+    ],
+    "diagnosis": {
+      "reasoning": "Moderate confidence (80%) based on thorough 5-question evaluation: persistent cough without clear triggers or severe symptoms. This suggests a chronic cough of unknown etiology.",
+      "description": "A cough lasting more than eight weeks without a clear underlying cause.",
+      "diagnosis_title": "Chronic Cough of Unknown Etiology",
+      "confidence_threshold": 80.0,
+      "icd_code": "R05"
+    },
+    "lab_tests": [
+      "Chest X-ray",
+      "Pulmonary function tests"
+    ],
+    "red_flags": [
+      "Coughing up blood",
+      "Unexplained weight loss"
+    ],
+    "precautions": [
+      "Avoid irritants like smoke"
+    ],
+    "otc_medication": [
+      "Cough suppressants"
+    ]
+  },
+  {
+    "id": 61,
+    "q_id": 61,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the elderly adult have a persistent cough lasting more than 3 weeks?",
+    "options": [
+      {
+        "next_q_id": 62,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 62,
+        "childQuestion": 62,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 65,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 65,
+        "childQuestion": 65,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 62,
+    "q_id": 62,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough accompanied by blood in the mucus?",
+    "options": [
+      {
+        "next_q_id": 63,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 63,
+        "childQuestion": 63,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 75,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 75,
+        "childQuestion": 75,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 63,
+    "q_id": 63,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the elderly adult experience shortness of breath with the cough?",
+    "options": [
+      {
+        "next_q_id": 64,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 64,
+        "childQuestion": 64,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 76,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 76,
+        "childQuestion": 76,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 64,
+    "q_id": 64,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the elderly male experience wheezing while coughing?",
+    "options": [
+      {
+        "next_q_id": 1035,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1035,
+        "childQuestion": 1035,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 79,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 79,
+        "childQuestion": 79,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1035,
+    "q_id": 1035,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Chronic Obstructive Pulmonary Disease (COPD)",
+    "options": [],
+    "advice": [
+      "Avoid smoking",
+      "Use prescribed inhalers"
+    ],
+    "diagnosis": {
+      "reasoning": "Very high confidence (95%) based on comprehensive 5-question assessment: persistent cough >3 weeks + blood in mucus + shortness of breath + wheezing. This symptom constellation strongly indicates COPD.",
+      "description": "Chronic Obstructive Pulmonary Disease is a chronic inflammatory lung disease that causes obstructed airflow from the lungs.",
+      "diagnosis_title": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "confidence_threshold": 95.0,
+      "icd_code": "J44.9"
+    },
+    "lab_tests": [
+      "Pulmonary function test",
+      "Chest X-ray"
+    ],
+    "red_flags": [
+      "Severe shortness of breath",
+      "Coughing up blood"
+    ],
+    "precautions": [
+      "Avoid exposure to pollutants"
+    ],
+    "otc_medication": [
+      "Bronchodilators"
+    ]
+  },
+  {
+    "id": 65,
+    "q_id": 65,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the elderly adult have a fever along with the cough?",
+    "options": [
+      {
+        "next_q_id": 66,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 66,
+        "childQuestion": 66,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 80,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 80,
+        "childQuestion": 80,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 66,
+    "q_id": 66,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough triggered by cold air or exercise?",
+    "options": [
+      {
+        "next_q_id": 67,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 67,
+        "childQuestion": 67,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 79,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 79,
+        "childQuestion": 79,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 67,
+    "q_id": 67,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the elderly male have a hoarse voice with the cough?",
+    "options": [
+      {
+        "next_q_id": 1036,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1036,
+        "childQuestion": 1036,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 83,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 83,
+        "childQuestion": 83,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1036,
+    "q_id": 1036,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Laryngitis",
+    "options": [],
+    "advice": [
+      "Rest voice",
+      "Stay hydrated"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on thorough 5-question evaluation: persistent cough + fever + triggered by cold air + hoarse voice. This pattern suggests laryngitis.",
+      "description": "Laryngitis is an inflammation of the voice box (larynx) from overuse, irritation, or infection.",
+      "diagnosis_title": "Laryngitis",
+      "confidence_threshold": 90.0,
+      "icd_code": "J04.0"
+    },
+    "lab_tests": [
+      "Laryngoscopy"
+    ],
+    "red_flags": [
+      "Difficulty breathing",
+      "Severe throat pain"
+    ],
+    "precautions": [
+      "Avoid whispering"
+    ],
+    "otc_medication": [
+      "Throat lozenges"
+    ]
+  },
+  {
+    "id": 68,
+    "q_id": 68,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the elderly adult have a persistent cough lasting more than 3 weeks?",
+    "options": [
+      {
+        "next_q_id": 69,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 69,
+        "childQuestion": 69,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 70,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 70,
+        "childQuestion": 70,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 69,
+    "q_id": 69,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough accompanied by blood in the mucus?",
+    "options": [
+      {
+        "next_q_id": 73,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 73,
+        "childQuestion": 73,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 70,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 70,
+        "childQuestion": 70,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 70,
+    "q_id": 70,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the elderly adult have a fever along with the cough?",
+    "options": [
+      {
+        "next_q_id": 71,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 71,
+        "childQuestion": 71,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 72,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 72,
+        "childQuestion": 72,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 71,
+    "q_id": 71,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough worse after lying down?",
+    "options": [
+      {
+        "next_q_id": 1037,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1037,
+        "childQuestion": 1037,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 73,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 73,
+        "childQuestion": 73,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 72,
+    "q_id": 72,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the elderly adult have a history of smoking?",
+    "options": [
+      {
+        "next_q_id": 1038,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1038,
+        "childQuestion": 1038,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 74,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 74,
+        "childQuestion": 74,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 73,
+    "q_id": 73,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the elderly adult experience shortness of breath with the cough?",
+    "options": [
+      {
+        "next_q_id": 1039,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1039,
+        "childQuestion": 1039,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 75,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 75,
+        "childQuestion": 75,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 74,
+    "q_id": 74,
+    "q_tag": "AI_GENERATED",
+    "question": "Is the cough triggered by cold air or exercise?",
+    "options": [
+      {
+        "next_q_id": 1040,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1040,
+        "childQuestion": 1040,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 76,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 76,
+        "childQuestion": 76,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 75,
+    "q_id": 75,
+    "q_tag": "AI_GENERATED",
+    "question": "Does the elderly adult have a history of asthma or chronic bronchitis?",
+    "options": [
+      {
+        "next_q_id": 1041,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1041,
+        "childQuestion": 1041,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 76,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 76,
+        "childQuestion": 76,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 76,
+    "q_id": 76,
+    "q_tag": "AI_GENERATED",
+    "question": "Has the elderly adult been exposed to allergens recently?",
+    "options": [
+      {
+        "next_q_id": 1042,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1042,
+        "childQuestion": 1042,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 1043,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 1043,
+        "childQuestion": 1043,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1037,
+    "q_id": 1037,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Gastroesophageal Reflux Disease (GERD)",
+    "options": [],
+    "advice": [
+      "Avoid lying down immediately after meals",
+      "Elevate head while sleeping"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (95%) based on comprehensive 5-question assessment: persistent cough worse after lying down, no fever, and history of smoking. This symptom constellation strongly indicates GERD.",
+      "description": "A condition where stomach acid frequently flows back into the tube connecting your mouth and stomach (esophagus).",
+      "diagnosis_title": "Gastroesophageal Reflux Disease (GERD)",
+      "confidence_threshold": 95.0,
+      "icd_code": "K21.9"
+    },
+    "lab_tests": [
+      "Endoscopy"
+    ],
+    "red_flags": [
+      "Severe chest pain"
+    ],
+    "precautions": [
+      "Avoid spicy foods"
+    ],
+    "otc_medication": [
+      "Antacids"
+    ]
+  },
+  {
+    "id": 1038,
+    "q_id": 1038,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Chronic Obstructive Pulmonary Disease (COPD)",
+    "options": [],
+    "advice": [
+      "Quit smoking",
+      "Regular exercise"
+    ],
+    "diagnosis": {
+      "reasoning": "Very high confidence (95%) based on comprehensive 5-question assessment: persistent cough, history of smoking, and shortness of breath. This symptom pattern is classic for COPD.",
+      "description": "A chronic inflammatory lung disease that causes obstructed airflow from the lungs.",
+      "diagnosis_title": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "confidence_threshold": 95.0,
+      "icd_code": "J44.9"
+    },
+    "lab_tests": [
+      "Spirometry"
+    ],
+    "red_flags": [
+      "Severe breathlessness"
+    ],
+    "precautions": [
+      "Avoid air pollutants"
+    ],
+    "otc_medication": [
+      "Bronchodilators"
+    ]
+  },
+  {
+    "id": 1039,
+    "q_id": 1039,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Pneumonia",
+    "options": [],
+    "advice": [
+      "Complete prescribed antibiotics",
+      "Rest and hydration"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on comprehensive 5-question assessment: cough with shortness of breath, fever, and no history of smoking. This symptom constellation suggests pneumonia.",
+      "description": "An infection that inflames the air sacs in one or both lungs, which may fill with fluid.",
+      "diagnosis_title": "Pneumonia",
+      "confidence_threshold": 90.0,
+      "icd_code": "J18.9"
+    },
+    "lab_tests": [
+      "Chest X-ray"
+    ],
+    "red_flags": [
+      "High fever"
+    ],
+    "precautions": [
+      "Avoid smoking"
+    ],
+    "otc_medication": [
+      "Cough suppressants"
+    ]
+  },
+  {
+    "id": 1040,
+    "q_id": 1040,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Asthma",
+    "options": [],
+    "advice": [
+      "Use inhaler as prescribed",
+      "Avoid known triggers"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on comprehensive 5-question assessment: cough triggered by cold air or exercise, history of asthma, and no fever. This symptom pattern is indicative of asthma.",
+      "description": "A condition in which your airways narrow and swell and may produce extra mucus.",
+      "diagnosis_title": "Asthma",
+      "confidence_threshold": 90.0,
+      "icd_code": "J45.909"
+    },
+    "lab_tests": [
+      "Pulmonary function test"
+    ],
+    "red_flags": [
+      "Severe wheezing"
+    ],
+    "precautions": [
+      "Avoid allergens"
+    ],
+    "otc_medication": [
+      "Inhalers"
+    ]
+  },
+  {
+    "id": 1041,
+    "q_id": 1041,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Chronic Bronchitis",
+    "options": [],
+    "advice": [
+      "Avoid smoking",
+      "Stay hydrated"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (90%) based on comprehensive 5-question assessment: persistent cough, history of chronic bronchitis, and no fever. This symptom pattern suggests chronic bronchitis.",
+      "description": "A form of COPD characterized by a chronic productive cough.",
+      "diagnosis_title": "Chronic Bronchitis",
+      "confidence_threshold": 90.0,
+      "icd_code": "J41.0"
+    },
+    "lab_tests": [
+      "Sputum test"
+    ],
+    "red_flags": [
+      "Persistent cough with mucus"
+    ],
+    "precautions": [
+      "Avoid air pollutants"
+    ],
+    "otc_medication": [
+      "Cough suppressants"
+    ]
+  },
+  {
+    "id": 1042,
+    "q_id": 1042,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Allergic Rhinitis",
+    "options": [],
+    "advice": [
+      "Avoid allergens",
+      "Use antihistamines"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (85%) based on comprehensive 5-question assessment: cough with recent allergen exposure, no fever, and history of allergies. This symptom pattern suggests allergic rhinitis.",
+      "description": "An allergic reaction that causes sneezing, congestion, and runny nose.",
+      "diagnosis_title": "Allergic Rhinitis",
+      "confidence_threshold": 85.0,
+      "icd_code": "J30.9"
+    },
+    "lab_tests": [
+      "Allergy test"
+    ],
+    "red_flags": [
+      "Severe nasal congestion"
+    ],
+    "precautions": [
+      "Avoid known allergens"
+    ],
+    "otc_medication": [
+      "Antihistamines"
+    ]
+  },
+  {
+    "id": 1043,
+    "q_id": 1043,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Viral Upper Respiratory Infection",
+    "options": [],
+    "advice": [
+      "Rest and hydration",
+      "Use over-the-counter cold remedies"
+    ],
+    "diagnosis": {
+      "reasoning": "Moderate confidence (85%) based on comprehensive 5-question assessment: persistent cough, no fever, and no recent allergen exposure. This symptom pattern suggests a viral upper respiratory infection.",
+      "description": "A viral infection affecting the upper respiratory tract, including the nose, throat, and airways.",
+      "diagnosis_title": "Viral Upper Respiratory Infection",
+      "confidence_threshold": 85.0,
+      "icd_code": "J06.9"
+    },
+    "lab_tests": [
+      "None required"
+    ],
+    "red_flags": [
+      "Persistent high fever"
+    ],
+    "precautions": [
+      "Avoid close contact with others"
+    ],
+    "otc_medication": [
+      "Decongestants"
+    ]
+  }
+]

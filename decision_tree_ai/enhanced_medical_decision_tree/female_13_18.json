@@ -1,0 +1,500 @@
+[
+  {
+    "id": 27,
+    "q_id": 27,
+    "q_tag": "NEW",
+    "question": "Does the teenager have a persistent cough?",
+    "options": [
+      {
+        "next_q_id": 28,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 28,
+        "childQuestion": 28,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 29,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 29,
+        "childQuestion": 29,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 28,
+    "q_id": 28,
+    "q_tag": "NEW",
+    "question": "Is the cough accompanied by shortness of breath?",
+    "options": [
+      {
+        "next_q_id": 32,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 32,
+        "childQuestion": 32,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 30,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 30,
+        "childQuestion": 30,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 32,
+    "q_id": 32,
+    "q_tag": "NEW",
+    "question": "Does the teenager have chest pain while coughing?",
+    "options": [
+      {
+        "next_q_id": 33,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 33,
+        "childQuestion": 33,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 34,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 34,
+        "childQuestion": 34,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 33,
+    "q_id": 33,
+    "q_tag": "NEW",
+    "question": "Is the cough triggered by exercise or cold air?",
+    "options": [
+      {
+        "next_q_id": 1001,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1001,
+        "childQuestion": 1001,
+        "childDiagnosis": 1001
+      },
+      {
+        "next_q_id": 35,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 35,
+        "childQuestion": 35,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1001,
+    "q_id": 1001,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Exercise-Induced Asthma",
+    "options": [],
+    "advice": [
+      "Avoid triggers such as cold air and strenuous exercise",
+      "Use prescribed inhalers as directed"
+    ],
+    "diagnosis": {
+      "reasoning": "Very high confidence (95%) due to comprehensive 5-question assessment: persistent cough, shortness of breath, chest pain, and exercise-induced symptoms. This complete clinical picture strongly indicates exercise-induced asthma requiring management.",
+      "description": "Exercise-induced asthma is a condition where physical exertion leads to narrowing of the airways, causing difficulty in breathing.",
+      "diagnosis_title": "Exercise-Induced Asthma",
+      "confidence_threshold": 95.0,
+      "icd_code": "J45.990"
+    },
+    "lab_tests": [
+      "Spirometry",
+      "Bronchoprovocation test"
+    ],
+    "red_flags": [
+      "Severe shortness of breath",
+      "Inability to speak in full sentences"
+    ],
+    "precautions": [
+      "Warm up before exercise",
+      "Wear a scarf over the mouth in cold weather"
+    ],
+    "otc_medication": [
+      "Salbutamol inhaler"
+    ]
+  },
+  {
+    "id": 30,
+    "q_id": 30,
+    "q_tag": "NEW",
+    "question": "Does the cough produce mucus or phlegm?",
+    "options": [
+      {
+        "next_q_id": 29,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 29,
+        "childQuestion": 29,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 31,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 31,
+        "childQuestion": 31,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 29,
+    "q_id": 29,
+    "q_tag": "NEW",
+    "question": "Does the teenager have a fever along with the cough?",
+    "options": [
+      {
+        "next_q_id": 1002,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1002,
+        "childQuestion": 1002,
+        "childDiagnosis": 1002
+      },
+      {
+        "next_q_id": 35,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 35,
+        "childQuestion": 35,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1002,
+    "q_id": 1002,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Bacterial Pneumonia",
+    "options": [],
+    "advice": [
+      "Complete the full course of prescribed antibiotics",
+      "Stay hydrated and rest"
+    ],
+    "diagnosis": {
+      "reasoning": "High confidence (95%) because patient presents with classic triad of symptoms: fever, productive cough, and chest pain, strongly indicating bacterial pneumonia.",
+      "description": "Bacterial pneumonia is an infection of the lungs caused by bacteria, leading to inflammation and fluid accumulation.",
+      "diagnosis_title": "Bacterial Pneumonia",
+      "confidence_threshold": 95.0,
+      "icd_code": "J15.9"
+    },
+    "lab_tests": [
+      "Chest X-ray",
+      "Sputum culture"
+    ],
+    "red_flags": [
+      "High fever",
+      "Difficulty breathing"
+    ],
+    "precautions": [
+      "Avoid smoking",
+      "Get vaccinated against pneumococcal infections"
+    ],
+    "otc_medication": [
+      "Acetaminophen for fever"
+    ]
+  },
+  {
+    "id": 31,
+    "q_id": 31,
+    "q_tag": "NEW",
+    "question": "Does the teenager smoke or vape?",
+    "options": [
+      {
+        "next_q_id": 34,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 34,
+        "childQuestion": 34,
+        "childDiagnosis": null
+      },
+      {
+        "next_q_id": 35,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 35,
+        "childQuestion": 35,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 34,
+    "q_id": 34,
+    "q_tag": "NEW",
+    "question": "Does the teenager have a history of asthma or bronchitis?",
+    "options": [
+      {
+        "next_q_id": 1003,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1003,
+        "childQuestion": 1003,
+        "childDiagnosis": 1003
+      },
+      {
+        "next_q_id": 35,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 35,
+        "childQuestion": 35,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1003,
+    "q_id": 1003,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Chronic Bronchitis",
+    "options": [],
+    "advice": [
+      "Avoid smoking and vaping",
+      "Use prescribed bronchodilators"
+    ],
+    "diagnosis": {
+      "reasoning": "Good confidence (90%) based on thorough 5-question evaluation: persistent cough, history of smoking, and history of bronchitis. This complete pattern suggests chronic bronchitis, though other causes cannot be completely ruled out without further testing.",
+      "description": "Chronic bronchitis is a long-term inflammation of the bronchi, often due to smoking, leading to persistent cough and mucus production.",
+      "diagnosis_title": "Chronic Bronchitis",
+      "confidence_threshold": 90.0,
+      "icd_code": "J42"
+    },
+    "lab_tests": [
+      "Pulmonary function test",
+      "Chest X-ray"
+    ],
+    "red_flags": [
+      "Increased mucus production",
+      "Worsening cough"
+    ],
+    "precautions": [
+      "Avoid exposure to lung irritants",
+      "Regular medical check-ups"
+    ],
+    "otc_medication": [
+      "Cough suppressant"
+    ]
+  },
+  {
+    "id": 35,
+    "q_id": 35,
+    "q_tag": "NEW",
+    "question": "Has the teenager been exposed to allergens recently?",
+    "options": [
+      {
+        "next_q_id": 1004,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1004,
+        "childQuestion": 1004,
+        "childDiagnosis": 1004
+      },
+      {
+        "next_q_id": 41,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 41,
+        "childQuestion": 41,
+        "childDiagnosis": null
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1004,
+    "q_id": 1004,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Allergic Rhinitis",
+    "options": [],
+    "advice": [
+      "Avoid known allergens",
+      "Use antihistamines as needed"
+    ],
+    "diagnosis": {
+      "reasoning": "Reasonable confidence (85%) based on comprehensive 5-question assessment: recent allergen exposure, persistent cough, and no fever. Complete evaluation suggests allergic rhinitis, but monitoring required as symptom pattern could evolve.",
+      "description": "Allergic rhinitis is an allergic reaction causing sneezing, congestion, and cough due to exposure to allergens.",
+      "diagnosis_title": "Allergic Rhinitis",
+      "confidence_threshold": 85.0,
+      "icd_code": "J30.9"
+    },
+    "lab_tests": [
+      "Allergy testing",
+      "Nasal endoscopy"
+    ],
+    "red_flags": [
+      "Severe allergic reactions",
+      "Persistent symptoms despite treatment"
+    ],
+    "precautions": [
+      "Keep windows closed during high pollen seasons",
+      "Use air purifiers"
+    ],
+    "otc_medication": [
+      "Antihistamines"
+    ]
+  },
+  {
+    "id": 41,
+    "q_id": 41,
+    "q_tag": "NEW",
+    "question": "Does the female teenager have a history of allergies?",
+    "options": [
+      {
+        "next_q_id": 1005,
+        "opt_value": "Yes",
+        "option_id": 1,
+        "nextQuestion": 1005,
+        "childQuestion": 1005,
+        "childDiagnosis": 1005
+      },
+      {
+        "next_q_id": 1006,
+        "opt_value": "No",
+        "option_id": 2,
+        "nextQuestion": 1006,
+        "childQuestion": 1006,
+        "childDiagnosis": 1006
+      }
+    ],
+    "advice": null,
+    "diagnosis": null,
+    "lab_tests": null,
+    "red_flags": null,
+    "precautions": null,
+    "otc_medication": null
+  },
+  {
+    "id": 1005,
+    "q_id": 1005,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Asthma",
+    "options": [],
+    "advice": [
+      "Use inhalers as prescribed",
+      "Monitor peak flow regularly"
+    ],
+    "diagnosis": {
+      "reasoning": "Good confidence (90%) based on thorough 5-question evaluation: history of allergies, persistent cough, and exercise-induced symptoms. This complete pattern suggests asthma, though other causes cannot be completely ruled out without further testing.",
+      "description": "Asthma is a chronic condition characterized by airway inflammation and hyperreactivity, leading to wheezing and difficulty breathing.",
+      "diagnosis_title": "Asthma",
+      "confidence_threshold": 90.0,
+      "icd_code": "J45.909"
+    },
+    "lab_tests": [
+      "Spirometry",
+      "Allergy testing"
+    ],
+    "red_flags": [
+      "Severe asthma attacks",
+      "Frequent use of rescue inhaler"
+    ],
+    "precautions": [
+      "Avoid known triggers",
+      "Regular follow-up with healthcare provider"
+    ],
+    "otc_medication": [
+      "Rescue inhaler"
+    ]
+  },
+  {
+    "id": 1006,
+    "q_id": 1006,
+    "q_tag": "DIAGNOSIS",
+    "question": "Diagnosis: Viral Upper Respiratory Infection",
+    "options": [],
+    "advice": [
+      "Rest and stay hydrated",
+      "Use over-the-counter cold remedies"
+    ],
+    "diagnosis": {
+      "reasoning": "Reasonable confidence (85%) based on comprehensive 5-question assessment: no history of allergies, persistent cough, and no fever. Complete evaluation suggests viral upper respiratory infection, but monitoring required as symptom pattern could evolve.",
+      "description": "Viral upper respiratory infection is a common viral infection affecting the nose, throat, and airways, often causing cough and congestion.",
+      "diagnosis_title": "Viral Upper Respiratory Infection",
+      "confidence_threshold": 85.0,
+      "icd_code": "J06.9"
+    },
+    "lab_tests": [
+      "Throat swab",
+      "Complete blood count"
+    ],
+    "red_flags": [
+      "High fever",
+      "Persistent symptoms"
+    ],
+    "precautions": [
+      "Avoid close contact with others",
+      "Practice good hand hygiene"
+    ],
+    "otc_medication": [
+      "Decongestants"
+    ]
+  }
+]

@@ -1,0 +1,2624 @@
+{
+  "questions": [
+    {
+      "q_id": 1,
+      "q_tag": "DEMOGRAPHICS",
+      "question": "What is your gender?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Male"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "Female"
+        }
+      ],
+      "age_group": null,
+      "gender": "Both",
+      "clinical_rationale": "Essential demographic information for accurate medical assessment"
+    },
+    {
+      "q_id": 2,
+      "q_tag": "DEMOGRAPHICS",
+      "question": "What is your age category?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "0-2 years (Infant/Toddler)"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "3-12 years (Child)"
+        },
+        {
+          "option_id": 3,
+          "opt_value": "13-18 years (Adolescent)"
+        },
+        {
+          "option_id": 4,
+          "opt_value": "19-40 years (Young Adult)"
+        },
+        {
+          "option_id": 5,
+          "opt_value": "41-65 years (Middle-aged Adult)"
+        },
+        {
+          "option_id": 6,
+          "opt_value": "66+ years (Senior)"
+        }
+      ],
+      "age_group": null,
+      "gender": "Both",
+      "clinical_rationale": "Age-specific medical assessment and treatment considerations"
+    },
+    {
+      "q_id": 3,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the infant have a persistent cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "0-2",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 4,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough accompanied by fever?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "0-2",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 5,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the infant have difficulty breathing?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "0-2",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 6,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough wet or productive?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Wet"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "Dry"
+        }
+      ],
+      "age_group": "0-2",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 7,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the infant have nasal congestion?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "0-2",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 8,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the infant's cough worse at night?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "0-2",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 9,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the infant wheezing while coughing?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "0-2",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 10,
+      "q_tag": "SYMPTOMS",
+      "question": "Has the infant been exposed to smoke or pollutants?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "0-2",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 11,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the infant have a history of allergies?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "0-2",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 12,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the infant vomit after coughing?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "0-2",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 13,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the infant feeding normally despite the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "0-2",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 14,
+      "q_tag": "SYMPTOMS",
+      "question": "Has the infant been recently vaccinated?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "0-2",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 15,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the child have a persistent cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "3-12",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 16,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough accompanied by a sore throat?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "3-12",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 17,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the child have a fever along with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "3-12",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 18,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough dry or productive?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Dry"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "Productive"
+        }
+      ],
+      "age_group": "3-12",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 19,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the child experience chest pain while coughing?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "3-12",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 20,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the child have a runny nose?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "3-12",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 21,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough worse in the morning or at night?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Morning"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "Night"
+        }
+      ],
+      "age_group": "3-12",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 22,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the child have a history of asthma or allergies?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "3-12",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 23,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the child cough after physical activity?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "3-12",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 24,
+      "q_tag": "SYMPTOMS",
+      "question": "Has the child been exposed to someone with a cold or flu?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "3-12",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 25,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the child have difficulty sleeping due to the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "3-12",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 26,
+      "q_tag": "SYMPTOMS",
+      "question": "Has the child recently traveled to a high-pollution area?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "3-12",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 27,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the teenager have a persistent cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 28,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough accompanied by shortness of breath?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 29,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the teenager have a fever along with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 30,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the cough produce mucus or phlegm?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 31,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the teenager smoke or vape?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 32,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the teenager have chest pain while coughing?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 33,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough triggered by exercise or cold air?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 34,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the teenager have a history of asthma or bronchitis?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 35,
+      "q_tag": "SYMPTOMS",
+      "question": "Has the teenager been exposed to allergens recently?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 36,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the male teenager have a hoarse voice with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Male",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 37,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the male teenager experience wheezing while coughing?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Male",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 38,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the male teenager have a family history of respiratory illnesses?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Male",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 39,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the female teenager have a persistent dry cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Female",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 40,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the female teenager experience fatigue along with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Female",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 41,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the female teenager have a history of allergies?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "13-18",
+      "gender": "Female",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 42,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the adult have a persistent cough lasting more than 3 weeks?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 43,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough accompanied by blood in the mucus?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 44,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the adult have a fever along with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 45,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough worse after lying down?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 46,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the adult have a history of smoking?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 47,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the adult experience shortness of breath with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 48,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough triggered by cold air or exercise?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 49,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the adult have a history of asthma or chronic bronchitis?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 50,
+      "q_tag": "SYMPTOMS",
+      "question": "Has the adult been exposed to allergens recently?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 51,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the male adult have a hoarse voice with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Male",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 52,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the male adult experience wheezing while coughing?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Male",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 53,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the male adult have a family history of respiratory illnesses?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Male",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 54,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the female adult have a persistent dry cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Female",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 55,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the female adult experience fatigue along with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Female",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 56,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the female adult have a history of allergies?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "19-40",
+      "gender": "Female",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 57,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the middle-aged adult have a persistent cough lasting more than 3 weeks?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 58,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough accompanied by blood in the mucus?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 59,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the middle-aged adult have a fever along with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 60,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough worse after lying down?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 61,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the middle-aged adult have a history of smoking?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 62,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the middle-aged adult experience shortness of breath with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 63,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough triggered by cold air or exercise?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 64,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the middle-aged adult have a history of asthma or chronic bronchitis?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 65,
+      "q_tag": "SYMPTOMS",
+      "question": "Has the middle-aged adult been exposed to allergens recently?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 66,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the male middle-aged adult have a hoarse voice with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Male",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 67,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the male middle-aged adult experience wheezing while coughing?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Male",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 68,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the male middle-aged adult have a family history of respiratory illnesses?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Male",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 69,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the female middle-aged adult have a persistent dry cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Female",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 70,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the female middle-aged adult experience fatigue along with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Female",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 71,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the female middle-aged adult have a history of allergies?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "41-65",
+      "gender": "Female",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 72,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the elderly adult have a persistent cough lasting more than 3 weeks?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 73,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough accompanied by blood in the mucus?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 74,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the elderly adult have a fever along with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 75,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough worse after lying down?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 76,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the elderly adult have a history of smoking?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 77,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the elderly adult experience shortness of breath with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 78,
+      "q_tag": "SYMPTOMS",
+      "question": "Is the cough triggered by cold air or exercise?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 79,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the elderly adult have a history of asthma or chronic bronchitis?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 80,
+      "q_tag": "SYMPTOMS",
+      "question": "Has the elderly adult been exposed to allergens recently?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Both",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 81,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the elderly male have a hoarse voice with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Male",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 82,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the elderly male experience wheezing while coughing?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Male",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 83,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the elderly male have a family history of respiratory illnesses?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Male",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 84,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the elderly female have a persistent dry cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Female",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 85,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the elderly female experience fatigue along with the cough?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Female",
+      "clinical_rationale": null
+    },
+    {
+      "q_id": 86,
+      "q_tag": "SYMPTOMS",
+      "question": "Does the elderly female have a history of allergies?",
+      "options": [
+        {
+          "option_id": 1,
+          "opt_value": "Yes"
+        },
+        {
+          "option_id": 2,
+          "opt_value": "No"
+        }
+      ],
+      "age_group": "66+",
+      "gender": "Female",
+      "clinical_rationale": null
+    }
+  ],
+  "diagnosis": [
+    {
+      "q_id": 101,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Bronchiolitis",
+        "description": "A common lung infection in infants causing cough and wheezing."
+      },
+      "lab_tests": [
+        "Chest X-ray",
+        "Oxygen saturation test"
+      ],
+      "otc_medication": [
+        "Saline nasal drops"
+      ],
+      "advice": [
+        "Keep the infant hydrated",
+        "Use a humidifier"
+      ],
+      "red_flags": [
+        "Severe difficulty breathing",
+        "Bluish skin"
+      ],
+      "precautions": [
+        "Avoid smoke exposure"
+      ],
+      "age_group": "0-2",
+      "gender": "Both"
+    },
+    {
+      "q_id": 102,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Croup",
+        "description": "A viral infection causing a barking cough and stridor in young children."
+      },
+      "lab_tests": [
+        "Clinical diagnosis"
+      ],
+      "otc_medication": [
+        "Acetaminophen for fever"
+      ],
+      "advice": [
+        "Steam inhalation"
+      ],
+      "red_flags": [
+        "Stridor at rest"
+      ],
+      "precautions": [
+        "Avoid cold air exposure"
+      ],
+      "age_group": "0-2",
+      "gender": "Both"
+    },
+    {
+      "q_id": 103,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "RSV Infection",
+        "description": "A respiratory virus causing cold-like symptoms in infants."
+      },
+      "lab_tests": [
+        "RSV antigen test"
+      ],
+      "otc_medication": [
+        "Saline drops"
+      ],
+      "advice": [
+        "Frequent suctioning of nasal secretions"
+      ],
+      "red_flags": [
+        "Severe lethargy"
+      ],
+      "precautions": [
+        "Hand hygiene"
+      ],
+      "age_group": "0-2",
+      "gender": "Both"
+    },
+    {
+      "q_id": 104,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Pneumonia",
+        "description": "Lung infection causing fever, cough, and difficulty breathing."
+      },
+      "lab_tests": [
+        "Chest X-ray",
+        "Blood culture"
+      ],
+      "otc_medication": [
+        "None, prescription antibiotics needed"
+      ],
+      "advice": [
+        "Seek immediate medical care"
+      ],
+      "red_flags": [
+        "Rapid breathing"
+      ],
+      "precautions": [
+        "Vaccination"
+      ],
+      "age_group": "0-2",
+      "gender": "Both"
+    },
+    {
+      "q_id": 105,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Allergic Rhinitis",
+        "description": "Allergy-induced nasal congestion and cough."
+      },
+      "lab_tests": [
+        "Allergy testing"
+      ],
+      "otc_medication": [
+        "Antihistamines"
+      ],
+      "advice": [
+        "Avoid allergens"
+      ],
+      "red_flags": [
+        "Severe swelling"
+      ],
+      "precautions": [
+        "Use air purifiers"
+      ],
+      "age_group": "0-2",
+      "gender": "Both"
+    },
+    {
+      "q_id": 106,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Whooping Cough (Pertussis)",
+        "description": "A bacterial infection causing severe coughing fits."
+      },
+      "lab_tests": [
+        "Pertussis culture"
+      ],
+      "otc_medication": [
+        "None, antibiotics required"
+      ],
+      "advice": [
+        "Vaccination"
+      ],
+      "red_flags": [
+        "Apnea episodes"
+      ],
+      "precautions": [
+        "Avoid contact with infected individuals"
+      ],
+      "age_group": "0-2",
+      "gender": "Both"
+    },
+    {
+      "q_id": 107,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Common Cold",
+        "description": "A viral infection causing mild cough and nasal congestion."
+      },
+      "lab_tests": [
+        "None"
+      ],
+      "otc_medication": [
+        "Saline drops"
+      ],
+      "advice": [
+        "Ensure hydration"
+      ],
+      "red_flags": [
+        "High fever"
+      ],
+      "precautions": [
+        "Handwashing"
+      ],
+      "age_group": "0-2",
+      "gender": "Both"
+    },
+    {
+      "q_id": 108,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Asthma",
+        "description": "Chronic inflammation of airways causing cough and wheezing."
+      },
+      "lab_tests": [
+        "Spirometry"
+      ],
+      "otc_medication": [
+        "None, inhalers required"
+      ],
+      "advice": [
+        "Avoid triggers"
+      ],
+      "red_flags": [
+        "Severe wheezing"
+      ],
+      "precautions": [
+        "Use prescribed inhalers"
+      ],
+      "age_group": "3-12",
+      "gender": "Both"
+    },
+    {
+      "q_id": 109,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Sinusitis",
+        "description": "Inflammation of sinuses causing cough and nasal discharge."
+      },
+      "lab_tests": [
+        "Sinus X-ray"
+      ],
+      "otc_medication": [
+        "Decongestants"
+      ],
+      "advice": [
+        "Steam inhalation"
+      ],
+      "red_flags": [
+        "Facial swelling"
+      ],
+      "precautions": [
+        "Avoid allergens"
+      ],
+      "age_group": "3-12",
+      "gender": "Both"
+    },
+    {
+      "q_id": 110,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Flu (Influenza)",
+        "description": "Viral infection causing fever, cough, and body aches."
+      },
+      "lab_tests": [
+        "Rapid flu test"
+      ],
+      "otc_medication": [
+        "Acetaminophen"
+      ],
+      "advice": [
+        "Rest and hydration"
+      ],
+      "red_flags": [
+        "Severe fatigue"
+      ],
+      "precautions": [
+        "Annual flu vaccine"
+      ],
+      "age_group": "3-12",
+      "gender": "Both"
+    },
+    {
+      "q_id": 111,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "GERD",
+        "description": "Acid reflux causing cough, especially at night."
+      },
+      "lab_tests": [
+        "pH monitoring"
+      ],
+      "otc_medication": [
+        "Antacids"
+      ],
+      "advice": [
+        "Elevate head while sleeping"
+      ],
+      "red_flags": [
+        "Severe chest pain"
+      ],
+      "precautions": [
+        "Avoid spicy foods"
+      ],
+      "age_group": "3-12",
+      "gender": "Both"
+    },
+    {
+      "q_id": 112,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Foreign Body Aspiration",
+        "description": "Inhalation of a foreign object causing sudden cough."
+      },
+      "lab_tests": [
+        "Bronchoscopy"
+      ],
+      "otc_medication": [
+        "None, emergency care required"
+      ],
+      "advice": [
+        "Seek immediate medical attention"
+      ],
+      "red_flags": [
+        "Choking"
+      ],
+      "precautions": [
+        "Supervise while eating"
+      ],
+      "age_group": "3-12",
+      "gender": "Both"
+    },
+    {
+      "q_id": 113,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Allergic Rhinitis",
+        "description": "Allergy-induced nasal congestion and cough."
+      },
+      "lab_tests": [
+        "Allergy testing"
+      ],
+      "otc_medication": [
+        "Antihistamines"
+      ],
+      "advice": [
+        "Avoid allergens"
+      ],
+      "red_flags": [
+        "Severe swelling"
+      ],
+      "precautions": [
+        "Use air purifiers"
+      ],
+      "age_group": "3-12",
+      "gender": "Both"
+    },
+    {
+      "q_id": 114,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Bronchitis",
+        "description": "Inflammation of the bronchial tubes causing cough."
+      },
+      "lab_tests": [
+        "Chest X-ray"
+      ],
+      "otc_medication": [
+        "Cough suppressants"
+      ],
+      "advice": [
+        "Stay hydrated"
+      ],
+      "red_flags": [
+        "Persistent fever"
+      ],
+      "precautions": [
+        "Avoid smoking exposure"
+      ],
+      "age_group": "3-12",
+      "gender": "Both"
+    },
+    {
+      "q_id": 115,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Asthma",
+        "description": "Chronic inflammation of airways causing cough and wheezing."
+      },
+      "lab_tests": [
+        "Spirometry"
+      ],
+      "otc_medication": [
+        "None, inhalers required"
+      ],
+      "advice": [
+        "Avoid triggers"
+      ],
+      "red_flags": [
+        "Severe wheezing"
+      ],
+      "precautions": [
+        "Use prescribed inhalers"
+      ],
+      "age_group": "13-18",
+      "gender": "Both"
+    },
+    {
+      "q_id": 116,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Bronchitis",
+        "description": "Inflammation of the bronchial tubes causing cough."
+      },
+      "lab_tests": [
+        "Chest X-ray"
+      ],
+      "otc_medication": [
+        "Cough suppressants"
+      ],
+      "advice": [
+        "Stay hydrated"
+      ],
+      "red_flags": [
+        "Persistent fever"
+      ],
+      "precautions": [
+        "Avoid smoking exposure"
+      ],
+      "age_group": "13-18",
+      "gender": "Both"
+    },
+    {
+      "q_id": 117,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Flu (Influenza)",
+        "description": "Viral infection causing fever, cough, and body aches."
+      },
+      "lab_tests": [
+        "Rapid flu test"
+      ],
+      "otc_medication": [
+        "Acetaminophen"
+      ],
+      "advice": [
+        "Rest and hydration"
+      ],
+      "red_flags": [
+        "Severe fatigue"
+      ],
+      "precautions": [
+        "Annual flu vaccine"
+      ],
+      "age_group": "13-18",
+      "gender": "Both"
+    },
+    {
+      "q_id": 118,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "GERD",
+        "description": "Acid reflux causing cough, especially at night."
+      },
+      "lab_tests": [
+        "pH monitoring"
+      ],
+      "otc_medication": [
+        "Antacids"
+      ],
+      "advice": [
+        "Elevate head while sleeping"
+      ],
+      "red_flags": [
+        "Severe chest pain"
+      ],
+      "precautions": [
+        "Avoid spicy foods"
+      ],
+      "age_group": "13-18",
+      "gender": "Both"
+    },
+    {
+      "q_id": 119,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Allergic Rhinitis",
+        "description": "Allergy-induced nasal congestion and cough."
+      },
+      "lab_tests": [
+        "Allergy testing"
+      ],
+      "otc_medication": [
+        "Antihistamines"
+      ],
+      "advice": [
+        "Avoid allergens"
+      ],
+      "red_flags": [
+        "Severe swelling"
+      ],
+      "precautions": [
+        "Use air purifiers"
+      ],
+      "age_group": "13-18",
+      "gender": "Both"
+    },
+    {
+      "q_id": 120,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Asthma",
+        "description": "Chronic inflammation of airways causing cough and wheezing."
+      },
+      "lab_tests": [
+        "Spirometry"
+      ],
+      "otc_medication": [
+        "None, inhalers required"
+      ],
+      "advice": [
+        "Avoid triggers"
+      ],
+      "red_flags": [
+        "Severe wheezing"
+      ],
+      "precautions": [
+        "Use prescribed inhalers"
+      ],
+      "age_group": "13-18",
+      "gender": "Male"
+    },
+    {
+      "q_id": 121,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Allergic Rhinitis",
+        "description": "Allergy-induced nasal congestion and cough."
+      },
+      "lab_tests": [
+        "Allergy testing"
+      ],
+      "otc_medication": [
+        "Antihistamines"
+      ],
+      "advice": [
+        "Avoid allergens"
+      ],
+      "red_flags": [
+        "Severe swelling"
+      ],
+      "precautions": [
+        "Use air purifiers"
+      ],
+      "age_group": "13-18",
+      "gender": "Female"
+    },
+    {
+      "q_id": 122,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Asthma",
+        "description": "Chronic inflammation of airways causing cough and wheezing."
+      },
+      "lab_tests": [
+        "Spirometry"
+      ],
+      "otc_medication": [
+        "None, inhalers required"
+      ],
+      "advice": [
+        "Avoid triggers"
+      ],
+      "red_flags": [
+        "Severe wheezing"
+      ],
+      "precautions": [
+        "Use prescribed inhalers"
+      ],
+      "age_group": "19-40",
+      "gender": "Both"
+    },
+    {
+      "q_id": 123,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Bronchitis",
+        "description": "Inflammation of the bronchial tubes causing cough."
+      },
+      "lab_tests": [
+        "Chest X-ray"
+      ],
+      "otc_medication": [
+        "Cough suppressants"
+      ],
+      "advice": [
+        "Stay hydrated"
+      ],
+      "red_flags": [
+        "Persistent fever"
+      ],
+      "precautions": [
+        "Avoid smoking exposure"
+      ],
+      "age_group": "19-40",
+      "gender": "Both"
+    },
+    {
+      "q_id": 124,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Flu (Influenza)",
+        "description": "Viral infection causing fever, cough, and body aches."
+      },
+      "lab_tests": [
+        "Rapid flu test"
+      ],
+      "otc_medication": [
+        "Acetaminophen"
+      ],
+      "advice": [
+        "Rest and hydration"
+      ],
+      "red_flags": [
+        "Severe fatigue"
+      ],
+      "precautions": [
+        "Annual flu vaccine"
+      ],
+      "age_group": "19-40",
+      "gender": "Both"
+    },
+    {
+      "q_id": 125,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "GERD",
+        "description": "Acid reflux causing cough, especially at night."
+      },
+      "lab_tests": [
+        "pH monitoring"
+      ],
+      "otc_medication": [
+        "Antacids"
+      ],
+      "advice": [
+        "Elevate head while sleeping"
+      ],
+      "red_flags": [
+        "Severe chest pain"
+      ],
+      "precautions": [
+        "Avoid spicy foods"
+      ],
+      "age_group": "19-40",
+      "gender": "Both"
+    },
+    {
+      "q_id": 126,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Allergic Rhinitis",
+        "description": "Allergy-induced nasal congestion and cough."
+      },
+      "lab_tests": [
+        "Allergy testing"
+      ],
+      "otc_medication": [
+        "Antihistamines"
+      ],
+      "advice": [
+        "Avoid allergens"
+      ],
+      "red_flags": [
+        "Severe swelling"
+      ],
+      "precautions": [
+        "Use air purifiers"
+      ],
+      "age_group": "19-40",
+      "gender": "Both"
+    },
+    {
+      "q_id": 127,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Asthma",
+        "description": "Chronic inflammation of airways causing cough and wheezing."
+      },
+      "lab_tests": [
+        "Spirometry"
+      ],
+      "otc_medication": [
+        "None, inhalers required"
+      ],
+      "advice": [
+        "Avoid triggers"
+      ],
+      "red_flags": [
+        "Severe wheezing"
+      ],
+      "precautions": [
+        "Use prescribed inhalers"
+      ],
+      "age_group": "19-40",
+      "gender": "Male"
+    },
+    {
+      "q_id": 128,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Allergic Rhinitis",
+        "description": "Allergy-induced nasal congestion and cough."
+      },
+      "lab_tests": [
+        "Allergy testing"
+      ],
+      "otc_medication": [
+        "Antihistamines"
+      ],
+      "advice": [
+        "Avoid allergens"
+      ],
+      "red_flags": [
+        "Severe swelling"
+      ],
+      "precautions": [
+        "Use air purifiers"
+      ],
+      "age_group": "19-40",
+      "gender": "Female"
+    },
+    {
+      "q_id": 129,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Asthma",
+        "description": "Chronic inflammation of airways causing cough and wheezing."
+      },
+      "lab_tests": [
+        "Spirometry"
+      ],
+      "otc_medication": [
+        "None, inhalers required"
+      ],
+      "advice": [
+        "Avoid triggers"
+      ],
+      "red_flags": [
+        "Severe wheezing"
+      ],
+      "precautions": [
+        "Use prescribed inhalers"
+      ],
+      "age_group": "41-65",
+      "gender": "Both"
+    },
+    {
+      "q_id": 130,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Bronchitis",
+        "description": "Inflammation of the bronchial tubes causing cough."
+      },
+      "lab_tests": [
+        "Chest X-ray"
+      ],
+      "otc_medication": [
+        "Cough suppressants"
+      ],
+      "advice": [
+        "Stay hydrated"
+      ],
+      "red_flags": [
+        "Persistent fever"
+      ],
+      "precautions": [
+        "Avoid smoking exposure"
+      ],
+      "age_group": "41-65",
+      "gender": "Both"
+    },
+    {
+      "q_id": 131,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Flu (Influenza)",
+        "description": "Viral infection causing fever, cough, and body aches."
+      },
+      "lab_tests": [
+        "Rapid flu test"
+      ],
+      "otc_medication": [
+        "Acetaminophen"
+      ],
+      "advice": [
+        "Rest and hydration"
+      ],
+      "red_flags": [
+        "Severe fatigue"
+      ],
+      "precautions": [
+        "Annual flu vaccine"
+      ],
+      "age_group": "41-65",
+      "gender": "Both"
+    },
+    {
+      "q_id": 132,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "GERD",
+        "description": "Acid reflux causing cough, especially at night."
+      },
+      "lab_tests": [
+        "pH monitoring"
+      ],
+      "otc_medication": [
+        "Antacids"
+      ],
+      "advice": [
+        "Elevate head while sleeping"
+      ],
+      "red_flags": [
+        "Severe chest pain"
+      ],
+      "precautions": [
+        "Avoid spicy foods"
+      ],
+      "age_group": "41-65",
+      "gender": "Both"
+    },
+    {
+      "q_id": 133,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Allergic Rhinitis",
+        "description": "Allergy-induced nasal congestion and cough."
+      },
+      "lab_tests": [
+        "Allergy testing"
+      ],
+      "otc_medication": [
+        "Antihistamines"
+      ],
+      "advice": [
+        "Avoid allergens"
+      ],
+      "red_flags": [
+        "Severe swelling"
+      ],
+      "precautions": [
+        "Use air purifiers"
+      ],
+      "age_group": "41-65",
+      "gender": "Both"
+    },
+    {
+      "q_id": 134,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Asthma",
+        "description": "Chronic inflammation of airways causing cough and wheezing."
+      },
+      "lab_tests": [
+        "Spirometry"
+      ],
+      "otc_medication": [
+        "None, inhalers required"
+      ],
+      "advice": [
+        "Avoid triggers"
+      ],
+      "red_flags": [
+        "Severe wheezing"
+      ],
+      "precautions": [
+        "Use prescribed inhalers"
+      ],
+      "age_group": "41-65",
+      "gender": "Male"
+    },
+    {
+      "q_id": 135,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Allergic Rhinitis",
+        "description": "Allergy-induced nasal congestion and cough."
+      },
+      "lab_tests": [
+        "Allergy testing"
+      ],
+      "otc_medication": [
+        "Antihistamines"
+      ],
+      "advice": [
+        "Avoid allergens"
+      ],
+      "red_flags": [
+        "Severe swelling"
+      ],
+      "precautions": [
+        "Use air purifiers"
+      ],
+      "age_group": "41-65",
+      "gender": "Female"
+    },
+    {
+      "q_id": 136,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Asthma",
+        "description": "Chronic inflammation of airways causing cough and wheezing."
+      },
+      "lab_tests": [
+        "Spirometry"
+      ],
+      "otc_medication": [
+        "None, inhalers required"
+      ],
+      "advice": [
+        "Avoid triggers"
+      ],
+      "red_flags": [
+        "Severe wheezing"
+      ],
+      "precautions": [
+        "Use prescribed inhalers"
+      ],
+      "age_group": "66+",
+      "gender": "Both"
+    },
+    {
+      "q_id": 137,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Bronchitis",
+        "description": "Inflammation of the bronchial tubes causing cough."
+      },
+      "lab_tests": [
+        "Chest X-ray"
+      ],
+      "otc_medication": [
+        "Cough suppressants"
+      ],
+      "advice": [
+        "Stay hydrated"
+      ],
+      "red_flags": [
+        "Persistent fever"
+      ],
+      "precautions": [
+        "Avoid smoking exposure"
+      ],
+      "age_group": "66+",
+      "gender": "Both"
+    },
+    {
+      "q_id": 138,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Flu (Influenza)",
+        "description": "Viral infection causing fever, cough, and body aches."
+      },
+      "lab_tests": [
+        "Rapid flu test"
+      ],
+      "otc_medication": [
+        "Acetaminophen"
+      ],
+      "advice": [
+        "Rest and hydration"
+      ],
+      "red_flags": [
+        "Severe fatigue"
+      ],
+      "precautions": [
+        "Annual flu vaccine"
+      ],
+      "age_group": "66+",
+      "gender": "Both"
+    },
+    {
+      "q_id": 139,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "GERD",
+        "description": "Acid reflux causing cough, especially at night."
+      },
+      "lab_tests": [
+        "pH monitoring"
+      ],
+      "otc_medication": [
+        "Antacids"
+      ],
+      "advice": [
+        "Elevate head while sleeping"
+      ],
+      "red_flags": [
+        "Severe chest pain"
+      ],
+      "precautions": [
+        "Avoid spicy foods"
+      ],
+      "age_group": "66+",
+      "gender": "Both"
+    },
+    {
+      "q_id": 140,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Allergic Rhinitis",
+        "description": "Allergy-induced nasal congestion and cough."
+      },
+      "lab_tests": [
+        "Allergy testing"
+      ],
+      "otc_medication": [
+        "Antihistamines"
+      ],
+      "advice": [
+        "Avoid allergens"
+      ],
+      "red_flags": [
+        "Severe swelling"
+      ],
+      "precautions": [
+        "Use air purifiers"
+      ],
+      "age_group": "66+",
+      "gender": "Both"
+    },
+    {
+      "q_id": 141,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Asthma",
+        "description": "Chronic inflammation of airways causing cough and wheezing."
+      },
+      "lab_tests": [
+        "Spirometry"
+      ],
+      "otc_medication": [
+        "None, inhalers required"
+      ],
+      "advice": [
+        "Avoid triggers"
+      ],
+      "red_flags": [
+        "Severe wheezing"
+      ],
+      "precautions": [
+        "Use prescribed inhalers"
+      ],
+      "age_group": "66+",
+      "gender": "Male"
+    },
+    {
+      "q_id": 142,
+      "q_tag": "DIAGNOSIS",
+      "diagnosis": {
+        "title": "Allergic Rhinitis",
+        "description": "Allergy-induced nasal congestion and cough."
+      },
+      "lab_tests": [
+        "Allergy testing"
+      ],
+      "otc_medication": [
+        "Antihistamines"
+      ],
+      "advice": [
+        "Avoid allergens"
+      ],
+      "red_flags": [
+        "Severe swelling"
+      ],
+      "precautions": [
+        "Use air purifiers"
+      ],
+      "age_group": "66+",
+      "gender": "Female"
+    }
+  ]
+}
