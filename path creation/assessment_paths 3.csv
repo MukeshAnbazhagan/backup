@@ -1,0 +1,73 @@
+protocol_id,node_type,q_id,question,options,diagnosis,red_flag_symptom,over_to_counter,advice,precaution,lab_tests,diet,description,category,gender
+8,question,1,Does the child have a fever above 100.4°F (38°C)?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 2}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,0-2,Male
+8,question,2,Is the child excessively irritable or crying?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 3}]",,,,,,,,No,0-2,Male
+8,question,3,Has the child been feeding less than usual?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 4}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,0-2,Male
+8,question,4,Does the child have a rash accompanying the fever?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 5}]",,,,,,,,No,0-2,Male
+8,question,5,Is the child vomiting or having diarrhea?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 106}]",,,,,,,,No,0-2,Male
+8,diagnosis,106,,,Urinary Tract Infection (UTI),"[""Painful urination""]","[""None""]","[""Consult a doctor""]","[""Ensure hygiene""]","[""Urine analysis""]",,Bacterial infection causing fever and discomfort.,0-2,Male
+8,question,1,Does the child have a fever above 100.4°F (38°C)?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 2}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,0-2,Female
+8,question,2,Is the child excessively irritable or crying?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 3}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,0-2,Female
+8,question,3,Has the child been feeding less than usual?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 4}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,0-2,Female
+8,question,4,Does the child have a rash accompanying the fever?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 5}]",,,,,,,,No,0-2,Female
+8,question,5,Is the child vomiting or having diarrhea?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 105}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,0-2,Female
+8,diagnosis,105,,,Flu (Influenza),"[""Difficulty breathing""]","[""Ibuprofen""]","[""Rest and hydration""]","[""Get flu vaccine""]","[""Flu swab test""]",,"A viral infection causing fever, fatigue, and body aches.",0-2,Female
+8,question,13,Does the child have a fever above 100.4°F (38°C)?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 14}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,3-12,Male
+8,question,14,Is the child complaining of a sore throat?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 15}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,3-12,Male
+8,question,15,Does the child have a headache?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 16}]",,,,,,,,No,3-12,Male
+8,question,16,Has the child been experiencing chills or shivering?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 17}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,3-12,Male
+8,question,17,Is the child coughing or sneezing frequently?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 108}]",,,,,,,,No,3-12,Male
+8,diagnosis,108,,,Strep Throat,"[""Severe throat pain""]","[""Ibuprofen""]","[""Complete antibiotics""]","[""Avoid sharing utensils""]","[""Throat swab""]",,Bacterial infection causing sore throat and fever.,3-12,Male
+8,question,13,Does the child have a fever above 100.4°F (38°C)?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 14}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,3-12,Female
+8,question,14,Is the child complaining of a sore throat?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 15}]",,,,,,,,No,3-12,Female
+8,question,15,Does the child have a headache?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 16}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,3-12,Female
+8,question,16,Has the child been experiencing chills or shivering?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 17}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,3-12,Female
+8,question,17,Is the child coughing or sneezing frequently?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 109}]",,,,,,,,No,3-12,Female
+8,diagnosis,109,,,Flu (Influenza),"[""Difficulty breathing""]","[""Acetaminophen""]","[""Rest and hydration""]","[""Get flu vaccine""]","[""Flu swab test""]",,"A viral infection causing fever, fatigue, and body aches.",3-12,Female
+8,question,25,Do you have a fever above 100.4°F (38°C)?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 26}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,13-18,Male
+8,question,26,Are you experiencing chills or shivering?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 27}]",,,,,,,,No,13-18,Male
+8,question,27,Do you have a sore throat?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 28}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,13-18,Male
+8,question,28,Are you experiencing muscle aches or fatigue?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 29}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,13-18,Male
+8,question,29,Do you have a headache?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 116}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,13-18,Male
+8,diagnosis,116,,,Flu (Influenza),"[""Difficulty breathing""]","[""Acetaminophen""]","[""Rest and hydration""]","[""Get flu vaccine""]","[""Flu swab test""]",,"A viral infection causing fever, fatigue, and body aches.",13-18,Male
+8,question,25,Do you have a fever above 100.4°F (38°C)?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 26}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,13-18,Female
+8,question,26,Are you experiencing chills or shivering?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 27}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,13-18,Female
+8,question,27,Do you have a sore throat?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 28}]",,,,,,,,No,13-18,Female
+8,question,28,Are you experiencing muscle aches or fatigue?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 29}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,13-18,Female
+8,question,29,Do you have a headache?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 116}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,13-18,Female
+8,diagnosis,116,,,Flu (Influenza),"[""Difficulty breathing""]","[""Acetaminophen""]","[""Rest and hydration""]","[""Get flu vaccine""]","[""Flu swab test""]",,"A viral infection causing fever, fatigue, and body aches.",13-18,Female
+8,question,40,Do you have a fever above 100.4°F (38°C)?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 41}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,19-40,Male
+8,question,41,Are you experiencing chills or shivering?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 42}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,19-40,Male
+8,question,42,Do you have a sore throat?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 43}]",,,,,,,,No,19-40,Male
+8,question,43,Are you experiencing muscle aches or fatigue?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 44}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,19-40,Male
+8,question,44,Do you have a headache?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 123}]",,,,,,,,No,19-40,Male
+8,diagnosis,123,,,Flu (Influenza),"[""Difficulty breathing""]","[""Ibuprofen""]","[""Rest and hydration""]","[""Get flu vaccine""]","[""Flu swab test""]",,"A viral infection causing fever, fatigue, and body aches.",19-40,Male
+8,question,40,Do you have a fever above 100.4°F (38°C)?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 41}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,19-40,Female
+8,question,41,Are you experiencing chills or shivering?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 42}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,19-40,Female
+8,question,42,Do you have a sore throat?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 43}]",,,,,,,,No,19-40,Female
+8,question,43,Are you experiencing muscle aches or fatigue?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 44}]",,,,,,,,No,19-40,Female
+8,question,44,Do you have a headache?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 122}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,19-40,Female
+8,diagnosis,122,,,COVID-19,"[""Difficulty breathing""]","[""Acetaminophen""]","[""Isolate and rest""]","[""Wear masks""]","[""PCR test""]",,"Viral infection causing fever, cough, and fatigue.",19-40,Female
+8,question,55,Do you have a fever above 100.4°F (38°C)?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 56}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,41-65,Male
+8,question,56,Are you experiencing chills or shivering?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 57}]",,,,,,,,No,41-65,Male
+8,question,57,Do you have a sore throat?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 58}]",,,,,,,,No,41-65,Male
+8,question,58,Are you experiencing muscle aches or fatigue?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 59}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,41-65,Male
+8,question,59,Do you have a headache?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 130}]",,,,,,,,No,41-65,Male
+8,diagnosis,130,,,Flu (Influenza),"[""Difficulty breathing""]","[""Ibuprofen""]","[""Rest and hydration""]","[""Get flu vaccine""]","[""Flu swab test""]",,"A viral infection causing fever, fatigue, and body aches.",41-65,Male
+8,question,55,Do you have a fever above 100.4°F (38°C)?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 56}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,41-65,Female
+8,question,56,Are you experiencing chills or shivering?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 57}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,41-65,Female
+8,question,57,Do you have a sore throat?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 58}]",,,,,,,,No,41-65,Female
+8,question,58,Are you experiencing muscle aches or fatigue?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 59}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,41-65,Female
+8,question,59,Do you have a headache?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 130}]",,,,,,,,No,41-65,Female
+8,diagnosis,130,,,Flu (Influenza),"[""Difficulty breathing""]","[""Ibuprofen""]","[""Rest and hydration""]","[""Get flu vaccine""]","[""Flu swab test""]",,"A viral infection causing fever, fatigue, and body aches.",41-65,Female
+8,question,70,Do you have a fever above 100.4°F (38°C)?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 71}]",,,,,,,,No,66+,Male
+8,question,71,Are you experiencing chills or shivering?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 72}]",,,,,,,,No,66+,Male
+8,question,72,Do you have a sore throat?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 73}]",,,,,,,,No,66+,Male
+8,question,73,Are you experiencing muscle aches or fatigue?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 74}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,66+,Male
+8,question,74,Do you have a headache?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 136}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,66+,Male
+8,diagnosis,136,,,COVID-19,"[""Difficulty breathing""]","[""Acetaminophen""]","[""Isolate and rest""]","[""Wear masks""]","[""PCR test""]",,"Viral infection causing fever, cough, and fatigue.",66+,Male
+8,question,70,Do you have a fever above 100.4°F (38°C)?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 71}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,66+,Female
+8,question,71,Are you experiencing chills or shivering?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 72}]",,,,,,,,No,66+,Female
+8,question,72,Do you have a sore throat?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 73}]",,,,,,,,No,66+,Female
+8,question,73,Are you experiencing muscle aches or fatigue?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": null}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": 74}]",,,,,,,,No,66+,Female
+8,question,74,Do you have a headache?,"[{""opt_id"": 1, ""opt_value"": ""Yes"", ""next_id"": 136}, {""opt_id"": 2, ""opt_value"": ""No"", ""next_id"": null}]",,,,,,,,Yes,66+,Female
+8,diagnosis,136,,,COVID-19,"[""Difficulty breathing""]","[""Acetaminophen""]","[""Isolate and rest""]","[""Wear masks""]","[""PCR test""]",,"Viral infection causing fever, cough, and fatigue.",66+,Female
